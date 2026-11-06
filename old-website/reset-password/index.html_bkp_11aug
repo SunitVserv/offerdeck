@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <!--[if IE]>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Offer Deck</title>
+<link rel='dns-prefetch' href='//maps.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Offer Deck &raquo; Feed" href="/feed" />
+<link rel="alternate" type="application/rss+xml" title="Offer Deck &raquo; Comments Feed" href="/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='Theme-Fonts-css'  href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic%7cMontserrat:400,700%7cOpen+Sans:400,300' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='/wp-content/themes/elizium/assets/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-theme-css-css'  href='/wp-content/themes/elizium/assets/css/bootstrap-theme.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='/wp-content/themes/elizium/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='linecons-css-css'  href='/wp-content/themes/elizium/assets/css/linecons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css-css'  href='/wp-content/themes/elizium/assets/css/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css-css'  href='/wp-content/themes/elizium/assets/owl-carousel/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css-css'  href='/wp-content/themes/elizium/assets/flexslider/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='global-css-css'  href='/wp-content/themes/elizium/assets/css/global.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elizium-style-css-css'  href='/wp-content/themes/elizium/assets/css/elizium-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='/wp-content/themes/elizium/assets/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='countdown-css-css'  href='/wp-content/themes/elizium/assets/countdown/jquery.countdown.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css-css'  href='/wp-content/themes/elizium/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/modernizr.custom.js'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.6" />
+<link rel="canonical" href="/login" />
+<link rel='shortlink' href='/?p=319' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://www.offerdeck.com%2Flogin" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://www.offerdeck.com%2Flogin&#038;format=xml" />
+<link rel="shortcut icon" type="image/x-icon" href="/wp-content/uploads/2015/07/offerdeck_logo.png"  />    </head>
+    <body class="page-template-default page page-id-319">
+        <div id="wrapper">
+            <!--Content Area Start-->
+            <div id="content">
+                <!--Header Section Start-->
+                				<header id="header">
+					<div class="navbar navbar-inverse" role="navigation">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+																<a class="navbar-brand" href="/" title="Elizium">
+								<figure>
+									<img src="/wp-content/uploads/2015/07/offerdeck_logo.png" alt="Offer Deck" title="Offer Deck">
+                                    
+                                     <a href="/signup" >    <img src="/wp-content/uploads/2015/07/sign-up.png" width="100" class="mob1" style="float:right;  margin-top:15px;" /> </a>
+
+               <a href="/login" > <img src="/wp-content/uploads/2015/07/login.png"  width="100" class="mob2"  style="float:right; margin-right:20px; margin-top:15px;" /> </a>
+								</figure> </a>
+							</div>
+
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<form class="navbar-form navbar-right clearfix" method="get" role="search" action="/">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search Here" name="s">
+									</div>
+									<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+								</form>
+								<nav class="main-navigation">
+                             
+             <a href="/signup" >    <img src="/wp-content/uploads/2015/07/sign-up.png" width="100"  style="float:right;  margin-top:15px;" /> </a>
+               <a href="/login" > <img src="/wp-content/uploads/2015/07/login.png"  width="100"   style="float:right; margin-right:20px; margin-top:15px;" /> </a>
+								 <ul id="menu-header-menu-1" class="nav navbar-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-527 dropdown"><a href="/index.html" >Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109 dropdown"><a href="/index.html#benefits" >Benefits</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111 dropdown"><a href="/index.html#partners" >Partners</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114 dropdown"><a href="/index.html#contact-us" >Contact Us</a></li>
+</ul>                                 
+								</nav>
+                                
+                                
+
+							</div>
+						</div>
+					</div>
+				</header>
+				
+				
+                <!--Header Section End-->
+<!--Content Area Start-->
+<div id="content">
+    <main id="main" role="main">
+        <div class="container">
+            <div class="row blog-wrapper">
+                <div class="col-xs-12 col-md-9">
+                    <div class="blog-main">
+                                                        <div class="outer-blog  post-319 page type-page status-publish hentry">
+                                    <article class="media blog anim-section animate">
+                                            
+                                        <div class="media-body">
+                                            <h4 class="media-heading"><a href="/login"></a></h4>
+                                            <p>
+<!-- <iframe style="height: 600px;" src="https://dashboard.offerdeck.com/login.html" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe> -->
+
+<iframe style="height: 600px;" id="reset-pass" src="" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+<script>
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return('');
+}
+var id = getQueryVariable("id");
+document.getElementById('reset-pass').src = 'password-recovery.html?id='+id;
+</script>
+
+
+</p>
+                                        </div>
+                                    </article>
+                                </div>
+                                                    </div>
+                </div>
+                <aside class="col-xs-12 col-md-3 blog-sidebar">
+                                    </aside>
+            </div>
+        </div>
+    </main>
+</div>
+<!--Content Area End-->
+<!--Footer Section Start-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                
+                                                    <p class="copyright">OfferDeck © 2019</p>
+                    <p> <a href="/terms-conditions"> Terms & Conditions </a> </p>
+                            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Footer Section End-->
+</div>
+</div>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/bootstrap.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var elizium = {"template_url":"\/wp-content\/themes\/elizium","color":"#75378e","layout":"fullWidth","sticky_header":"no","global_font":"'Open Sans', sans-serif","home_url":"https:\/\/www.offerdeck.com","menu_type":"top","map_lat":"19.165894","map_lang":"72.858981"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/elizium-option/elizium-option.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/jquery.easing.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/jquery.circliful.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/jquery.fancybox.js'></script>
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?sensor=true'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/gmap.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/snap.svg-min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/countdown/jquery.plugin.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/countdown/jquery.countdown.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/owl-carousel/owl.carousel.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/flexslider/jquery.flexslider.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var eliziumTimer = {"timer":"January 01, 1970 12:00:00"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/elizium-site.js'></script>
+<script type='text/javascript' src='/wp-content/themes/elizium/assets/js/elizium-custom.js'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.6'></script>
+<style type="text/css">
+.slide-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+a:hover,
+a:focus {
+  color: #75378e;
+}
+/*
+	Style for Switcher
+*/
+div.style-switcher h4 {
+  background: #75378e;
+}
+div.style-switcher h4 a {
+  background: #75378e;
+}
+.tp-caption .anim-icon:hover,
+.tp-caption .anim-icon:focus {
+  color: #75378e;
+}
+.anim-icon.fill:hover,
+.jump:hover,
+.pagination-wrap [class^="page-"]:hover,
+.accordion-sec .panel-title > a:hover,
+.panel-list .list-group-item > a:hover,
+.anim-icon.fill:focus,
+.jump:focus,
+.pagination-wrap [class^="page-"]:focus,
+.accordion-sec .panel-title > a:focus,
+.panel-list .list-group-item > a:focus {
+  color: #75378e;
+}
+/*
+  Style For Golbar Buttons
+---------------------------------*/
+.social-icons a {
+  color: #75378e;
+}
+.text-italic a {
+  color: #75378e;
+}
+/*
+	style for buttons
+*/
+.btn.btn-bordered:hover,
+.btn.btn-bordered:focus {
+  color: #75378e;
+}
+.btn.btn-bordered:hover:before,
+.btn.btn-bordered:focus:before,
+.btn.btn-bordered:hover:after,
+.btn.btn-bordered:focus:after {
+  border-color: #75378e;
+  background: #fff;
+  z-index: -1;
+}
+.btn.btn-bordered span:after,
+.btn.btn-bordered span:before {
+  color: #75378e;
+}
+.btn.btn-bordered.btn.btn-full-border:hover,
+.btn.btn-bordered.btn.btn-full-border:focus {
+  border-color: #75378e;
+}
+.btn.btn-bordered.btn-dark {
+  color: #333;
+}
+.btn.btn-bordered.btn-dark:hover {
+  color: #fff;
+}
+.btn.btn-bordered.btn-dark:hover:before,
+.btn.btn-bordered.btn-dark:hover:after {
+  background: #75378e;
+  z-index: -1;
+  border-color: #333;
+}
+.rect-icon-box {
+  color: #75378e;
+}
+.rect-icon-box > * {
+  color: #75378e;
+}
+.rect-icon-box.theme-border {
+  border-color: #75378e;
+}
+.rect-icon-box.theme-border:after,
+.rect-icon-box.theme-border:before {
+  color: #75378e;
+}
+.rect-icon-box.theme-border:hover,
+.rect-icon-box.theme-border:focus {
+  background: #75378e;
+}
+.rect-icon-box.theme-border:hover:after,
+.rect-icon-box.theme-border:focus:after,
+.rect-icon-box.theme-border:hover:before,
+.rect-icon-box.theme-border:focus:before {
+  color: #fff;
+}
+.rect-icon-box.bg-theme:after,
+.rect-icon-box.bg-theme:before {
+  color: #fff;
+}
+.rect-icon-box:hover,
+.rect-icon-box:focus {
+  border-color: #75378e;
+}
+.rect-icon-box:hover:after,
+.rect-icon-box:focus:after,
+.rect-icon-box:hover:before,
+.rect-icon-box:focus:before {
+  color: #75378e;
+}
+.rect-icon-box.bg-grey:hover,
+.rect-icon-box.bg-greyfocus {
+  background: #75378e;
+}
+.achieving-block:hover .rect-icon-box {
+  border-color: #75378e;
+}
+.achieving-block:hover .rect-icon-box:after,
+.achieving-block:hover .rect-icon-box:before {
+  color: #75378e;
+}
+.zig-zag {
+  stroke: #75378e;
+}
+.navbar {
+  border-bottom: 3px solid #75378e;
+}
+.navbar-nav > li > a:after {
+  color: #75378e;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #75378e;
+}
+.navbar-nav > li > .dropdown-menu {
+  border-bottom-color: #75378e;
+}
+.navbar-nav > li > .dropdown-menu:after {
+  border-bottom-color: #75378e;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover:after {
+  color: #75378e;
+}
+/*theme color*/
+.bg-theme {
+  background: #75378e;
+}
+.theme-text,
+.btn .text-theme,
+.title-line,
+.best-in-market,
+.dotted-list > li:before,
+.navbar-form .btn.open,
+.navbar-form .btn:hover,
+.quote-mark:after,
+.accordion .panel-default > .panel-heading,
+.img-zoom:hover,
+.review .media cite,
+.date i,
+.sub-heading,
+.arrow-list li:before,
+.circle-progress .circle-text,
+.team-wrap cite,
+.h-line span,
+.send,
+.price-block .price em,
+.slide-carousel span,
+.slide-carousel .carousel-indicators li.active,
+.countdown-amount:after,
+.showcase-sec .link-txt,
+.blog-detail blockquote:after,
+.blog-detail .media-body ul > li:before {
+  color: #75378e;
+}
+.vimeo-player.embed-responsive-16by9,
+.team-wrap {
+  border-bottom: 3px solid #75378e;
+}
+.pointed-quote svg,
+.up-bounding,
+.down-bounding {
+  stroke: #75378e;
+}
+.accordion .panel-default > .panel-heading .panel-title > a {
+  border: 2px solid #75378e;
+  color: #75378e;
+}
+.accordion .panel-default > .panel-heading .panel-title > a.collapsed {
+  border: 1px solid #eee;
+  color: #787878;
+}
+.view-feature {
+  color: #75378e;
+}
+.view-feature:hover,
+.view-feature:focus {
+  color: #75378e;
+}
+.slash-line span {
+  color: #75378e;
+}
+.l-down {
+  border-top-color: #75378e;
+}
+.intro-content:after {
+  border-bottom-color: #75378e;
+}
+.circle-progress:after,
+.blog .media-heading a:hover,
+.view-all:hover,
+.view-all:focus,
+.footer-nav li:after,
+.copyright,
+.contact-form .form-submit span sup,
+.info-boxes cite,
+.contact-info .media .fa,
+.find-us span,
+.triangle-shape,
+.pagination-wrap [class^="page-"] .fa,
+.pagination-wrap span,
+.comment-block .h3 span,
+.comment-block .num-list li:after,
+.comment-block .num-list li:before,
+.tp-caption blockquote:after,
+.blog-header-3 blockquote:after,
+.slash-line .li_note,
+.blog-header-7 .li_note,
+#theme_panel .page-group .active-page,
+#theme_panel .page-group a:hover,
+.contact-form .label-text.focussed,
+.pagination-wrap [class^="page-"]:after,
+#partners-carousel .owl-page.active,
+.showcase-sec h4 span,
+.showcase-sec a,
+.banner-text blockquote:before,
+.desig,
+.link-social-padd span {
+  color: #75378e;
+}
+.circle-progress:before,
+.blog:hover .rect-icon-box.bg-grey,
+#theme_panel .theme-setting,
+#theme_panel .note,
+#theme_panel .layout-column.radio-active .column-text:before,
+#theme_panel .select-box,
+#theme_panel .theme-pager li.current a,
+#theme_panel .theme-pager li:hover a,
+.contact-info .media:hover .rect-icon-box,
+.pace .pace-progress {
+  background: #75378e;
+}
+.bottom-pricing-block:after,
+.partners-logo a:after,
+.partners-logo a:before,
+.partners-logo a:hover:after,
+.partners-logo a:hover:before,
+.blog .thumbnail,
+#footer,
+.accordion-sec,
+.panel-list,
+.form-control:focus,
+.form-group label.focus,
+.blog-header-7 blockquote:after,
+.blog-header-7 blockquote:before,
+#theme_panel .yellow-brder,
+.intro-content,
+.countdown-section {
+  border-color: #75378e;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #75378e;
+}
+.responsive-calendar .day.active a {
+  background: #75378e;
+}
+.responsive-calendar .day.active a:hover,
+.responsive-calendar .day.active a:focus {
+  background: #75378e;
+}
+.responsive-calendar .controls [class^="page-"]:hover,
+.responsive-calendar .controls [class^="page-"]:focus {
+  color: #75378e;
+}
+.about-creating {
+  background-color: #75378e;
+}
+.fa-icon-effect-1a .fa-icon,
+.fa-icon-effect-1b .fa-icon,
+.fa-icon-effect-2a .fa-icon,
+.fa-icon-effect-2b .fa-icon,
+.fa-icon-effect-3a .fa-icon,
+.fa-icon-effect-3b .fa-icon,
+.fa-icon-effect-5a .fa-icon,
+.fa-icon-effect-5b .fa-icon,
+.fa-icon-effect-5c .fa-icon,
+.fa-icon-effect-5d .fa-icon,
+.fa-icon-effect-6 .fa-icon {
+  color: #75378e;
+}
+.fa-icon-effect-1a .fa-icon:hover,
+.fa-icon-effect-1b .fa-icon:hover,
+.fa-icon-effect-2a .fa-icon:hover,
+.fa-icon-effect-2b .fa-icon:hover,
+.fa-icon-effect-3a .fa-icon:hover,
+.fa-icon-effect-3b .fa-icon:hover,
+.fa-icon-effect-5a .fa-icon:hover,
+.fa-icon-effect-5b .fa-icon:hover,
+.fa-icon-effect-5c .fa-icon:hover,
+.fa-icon-effect-5d .fa-icon:hover,
+.fa-icon-effect-6 .fa-icon:hover,
+.fa-icon-effect-1a .fa-icon:focus,
+.fa-icon-effect-1b .fa-icon:focus,
+.fa-icon-effect-2a .fa-icon:focus,
+.fa-icon-effect-2b .fa-icon:focus,
+.fa-icon-effect-3a .fa-icon:focus,
+.fa-icon-effect-3b .fa-icon:focus,
+.fa-icon-effect-5a .fa-icon:focus,
+.fa-icon-effect-5b .fa-icon:focus,
+.fa-icon-effect-5c .fa-icon:focus,
+.fa-icon-effect-5d .fa-icon:focus,
+.fa-icon-effect-6 .fa-icon:focus {
+  color: #75378e;
+}
+.fa-icon-effect-5 .fa-icon:hover,
+.fa-icon-effect-9b .fa-icon:hover,
+.fa-icon-effect-5 .fa-icon:focus,
+.fa-icon-effect-9b .fa-icon:focus {
+  box-shadow: 0 0 0 4px #75378e;
+}
+.pace .pace-activity {
+  border-top-color: #75378e;
+  border-left-color: #75378e;
+}
+.pattern-list > a.active {
+  border-color: #75378e;
+}
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -moz-transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #75378e, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+.comment-count,
+.date a:hover,
+.comment-edit-link,
+.reply a {
+  color: #75378e;
+}
+.form-submit .comment-submit-wrap:hover input[type="submit"],
+.form-submit .comment-submit-wrap:hover i,
+.logged-in-as a,
+.edit-link a,
+#reply-title a {
+  color: #75378e;
+}
+.comment-submit-wrap:hover {
+  border: 2px solid #75378e;
+}
+.navbar-nav .sub-sub-menu {
+  border-bottom-color: #75378e;
+}
+.navbar-nav .sub-sub-menu a:hover {
+  color: #75378e;
+}
+.sticky article {
+  box-shadow: 0 5px 10px 0 #75378e;
+}
+.pagination .current,
+.comment-details cite a.url {
+  color: #75378e;
+}
+.sidebar-module .searchform input,
+.post-password-form input {
+  border: 1px solid #75378e;
+}
+#comment-nav-below .nav-previous a,
+#comment-nav-below .nav-next a {
+  color: #75378e;
+}
+#contact-us .elizium-contact-us:hover {
+  border-left: 2px solid #75378e !important;
+  border-right: 2px solid #75378e !important;
+}
+#contact-us .elizium-contact-us:hover i,
+#contact-us .elizium-contact-us:hover input,
+#…
+</style>
+</body>
+
+</html>

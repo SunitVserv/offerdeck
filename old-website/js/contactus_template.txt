@@ -1,0 +1,10 @@
+Hello,
+<br/><br/>
+New Query Received :
+<br/><br/>
+
+__BODY__
+
+<br/>
+Thank you,
+<br/><b>Team Offerdeck.</b>

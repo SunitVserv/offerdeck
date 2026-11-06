@@ -1,0 +1,27 @@
+var MSG = {
+	"108": "Unable to get email address from social service"
+// ,	"107": "Social media authentication failed"
+// ,	"110": "Social authentication successful, but user is unverified on social service"
+,	"114": "You are not registered, please click on Register"
+, "115": "email address required"
+, "116": "invalid account type"
+// , "101": "User account is blocked"	
+, "102": "You have been denied access to Vserv accounts. Please contact us for further information."	
+// , "103": "No default login account defined for user"	
+// , "104": "User not associated with any account"	
+, "105": "Invalid username"	
+, "106": "Invalid password"	
+, "xxx": ""	
+, "xxx": ""	
+, "xxx": ""	
+, "xxx": ""	
+	
+,	"606": "Limit exceeded, please narrow down filters"
+,	"603": "No analytics data found, try changing filters"
+,	"default_analytics": "Error showing analytics data"
+,	"default_login": "Some error occured"
+
+,	"VM005": "Email already registered"
+,       "A003" : "Your account is in pending status"
+,       "A002" : "Your account is not valid"
+}

@@ -1,0 +1,66 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">elizium_partner</custom-type>
+        <custom-type translate="1">elizium_reviews</custom-type>
+        <custom-type translate="1">eli_pricing_table</custom-type>
+        <custom-type translate="1">elizium_slider</custom-type>
+    </custom-types>   
+   
+    <custom-fields>
+        <custom-field action="translate">partner_meta</custom-field>
+        <custom-field action="translate">pricing_table</custom-field>
+        <custom-field action="translate">builder_settings</custom-field>
+        <custom-field action="translate">slider</custom-field>
+        <custom-field action="translate">review</custom-field>
+    </custom-fields>    
+    <admin-texts>
+        <key name="op_option">
+            <key name="ez_body_layout" />
+            <key name="ez_header_color_style" />
+            <key name="ez_color_main" />
+            <key name="ez_theme_font" />
+            <key name="ez_sticky_header" />
+            <key name="ez_nav_menu" />
+            <key name="count_timer" />
+            <key name="ez_facebook_page_url" />
+            <key name="ez_twitter_page_url" />
+            <key name="ez_youtube_url" />
+            <key name="ez_copyright" />
+        </key> 
+    </admin-texts>  
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">0</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>     
+</wpml-config>

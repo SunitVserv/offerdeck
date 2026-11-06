@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-24x24.png" sizes="24x24">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <title>Offerdeck</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/style.css" rel="stylesheet" media="screen">
+        <script src="js/jquery-1.10.1.min.js"></script>
+        <script src="js/jquery.cookie.min.js"></script>
+        <script src="js/config.js"></script>
+<!--        <script src="js/common.js"></script>-->
+        <script src="js/jquery.storageapi.min.js"></script>
+        <script src="js/ejs.js"></script>
+
+        <script src="js/en_US.js"></script>
+        <script src="js/html5shiv.js"></script>
+
+        <!--[if IE]>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+       <link href="css/ie.css" rel="stylesheet"> 
+        <![endif]-->
+        <!--[if !IE]><!--><script>
+            ieTest = (/MSIE (\d+\.\d+);|Trident/.test(navigator.userAgent));
+            if (ieTest)
+                document.documentElement.className += ' ie';
+        </script><!--<![endif]--> 
+        <script src="js/ion.checkRadio.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+        <script type="text/javascript" src="js/daterangepicker.js"></script>
+        <script type="text/javascript" src="js/metadata.js"></script>
+        <noscript>
+        <style type="text/css">
+            #login_err{display:block;}
+            #login_err:after{content:"You don't have javascript enabled.";}
+        </style>
+        </noscript>
+    </head>
+    <body>        
+        <div class="clear"></div>
+        <section class="view container loginPage" style="width: 100% !important; padding:0 0 202px !important;">
+            <section class="inner-cont apps-site new-app">
+                <h5 class="login-title">Login or Sign Up</h5>
+                <div class="login-wraper">
+                    <div class="c1">
+                        <div class="social-login">
+                            <a id="fb_signin" href="#" class="signing-google-login"></a> <br /><br />
+                            <a id="gp_signin" href="#" class="signing-facebook-login"></a> </div>
+                        <form id="frm-login" method="POST">
+                            <div class="login-form" >
+                                <dl>
+                                    <dt><label>Email id/Username:</label></dt>
+                                    <dd>
+                                        <input name="channel" type="hidden" />
+                                        <input name="access_token" type="hidden" />
+                                        <input name="serviceId" type="hidden" value="od" />
+                                        <input name="username" type="text" value="" /></dd>
+                                </dl>
+                                <dl>
+                                    <dt><label>Password:</label></dt>
+                                    <dd><input name="password" type="password" value="" /></dd>
+                                </dl>
+                                <div id="login_err" class="err_messages"></div>
+                                <div class="class-center">
+                                    <button type="submit" class="btn btn-login">LOG IN</button><span class="loader fr">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <div class="clear"></div><a class="forgot-password" id="popup-forgot-password" onclick="overlayBox('forgot-password');" href="javascript: void(0);">Forgot-password ?</a>
+                                    <div class="clear">
+                                    </div>
+                                    <br />
+                                    <div class="div-register">
+                                        <span>NOT REGISTERED WITH US?</span> <a target="_top" class="btn-register" href="/signup/" >SIGN-UP NOW!</a>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="forgot-password" class="overlay-box">
+                        <h1>Forgot Password</h1>
+                        <div class="forgot-form">
+                            <dl>
+                                <dt><label>Email Address:</label></dt>
+                                <dd><input id="forgot-email" type="text"></dd>
+                            </dl>
+                            <div id="forgot_msg" class="notif_messages"></div>
+                            <div id="forgot_err" class="err_messages"></div>
+                            <div class="clear10"></div>
+                            <button id="btn-forgot-password" type="button" class="btn">SUBMIT</button><span class="loader">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            
+                        </div>
+                        <div class="closeBtn"></div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div id="fb-root"></div>
+        <script src="js/login.js"></script>
+        <script type="text/javascript">
+            //including footer
+            $(document).ready(function () {
+                var data = {};
+                var footer = new EJS({url: 'templates/common/footer.ejs'}).render(data);
+                $('#footer').html(footer);
+            });
+        </script>
+    </body>
+</html>
+

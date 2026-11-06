@@ -1,0 +1,26 @@
+.app-ad-listing .c-1 a {
+	display: block;
+}
+
+
+.hover-menu ul li label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 90%;
+}
+
+.app-ad-listing .sort1:after {
+	content: "\f0d8";
+	font-family: FontAwesome;
+	padding-left: 10px;
+}
+
+.app-ad-listing .sort-1:after {
+	content: "\f0d7";
+	font-family: FontAwesome;
+	padding-left: 10px;
+}
+.ad-spot-linked-appsites-table .col sup.dollar{
+  float: left;
+  font-family: 'Conv_Gotham-Light';
+}

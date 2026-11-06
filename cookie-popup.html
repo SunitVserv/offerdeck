@@ -1,0 +1,48 @@
+<!-- cookie container start -->
+<section class="cookie-block" id="cookie-popup">
+	<div class="container">
+		<div class="cookie-box">
+			<div class="cookie-para-block"> 
+				<p class="cookie-para mb-2">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it. <a class="cookie-link mailto-link none-bold" href="cookie-policy.html">To learn more, read our <span class="blue-text">Cookie Policy here</span></a></p>
+			</div>
+			<div class="cookie-button-block" id="cookie-btn"> 
+				
+					<a  class="home_sec6_btn hvr_link got-link " id="cookie-cta">
+					  <span>
+						<span class="text_btn"> Got it </span>
+						<span class="icon_btn">
+						  <img class="hvr-forward" src="images/right-arrow.svg" alt="">
+						</span>
+						<span class="icon_btn">
+						  <img class="hvr-forward" src="images/right-arrow.svg" alt="">
+						</span>
+					  </span>
+					</a>
+				
+			</div>
+		</div>
+	</div>
+</section>
+<!-- cookie container end -->
+<script type="text/javascript" nonce="6bca354esrc4d79b1t7r8a5c903tdte008ae27cf7bcyfbcca4">
+// Check if the user has accepted cookies
+console.log(localStorage.getItem('cookieAccepted_offerdeck'));
+if (!localStorage.getItem('cookieAccepted_offerdeck')) {
+    // Display the cookie banner
+    document.getElementById('cookie-popup').style.display = 'block';
+}
+
+var cookieCTA = document.getElementById("cookie-cta");
+cookieCTA.addEventListener("click", function (event) {
+	acceptCookies();
+});	
+
+// Function to set the cookie flag when the user accepts cookies
+function acceptCookies() {
+    // Set a flag in localStorage
+    localStorage.setItem('cookieAccepted_offerdeck', true);
+
+    // Hide the cookie banner
+    document.getElementById('cookie-popup').style.display = 'none';
+}
+</script>

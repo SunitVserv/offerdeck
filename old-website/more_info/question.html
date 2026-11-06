@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-24x24.png" sizes="24x24">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <title>Offerdeck</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/wp-content/themes/elizium/style.css" rel="stylesheet" media="screen">
+        <link href="css/offer.css" rel="stylesheet" media="screen">
+        <link href="css/flags.css" rel="stylesheet" media="screen">
+        <script src="/login/js/jquery-1.10.1.min.js"></script>
+        <script src="/login/js/jquery.cookie.min.js"></script>
+        <script src="/login/js/common.js"></script>
+        <script src="/login/js/config.js"></script>
+        <script src="/login/js/html5shiv.js"></script>
+        <script src="js/ion.checkRadio.js"></script>
+        <script src="/login/js/jquery.storageapi.min.js"></script>
+        <script src="js/ajax.vserv.mobi.js"></script>
+        <script src="js/questionaire.js"></script>
+        <script></script>
+        <style >
+        #submit-quest{
+        border: none;
+        border-radius: 7px;
+        background: #ffae15;
+        color: #fff;
+        padding: 5px 15px;
+        position: relative;
+        overflow: hidden;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.1s linear;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="clear"></div>
+        <section id="more-info" class="view container" style="width: 100% !important;">
+            <div style="padding:11px 0 33px;margin: 0px 0px 0px 30px;"><h3>Welcome to Offerdeck - Mobile Affiliate Network!</h3> <br /><br />
+To make your approval process faster, please help us to understand your traffic better.<br /><br />
+Following questionnaire will help us identify the right offers that suit your traffic & make your experience with OfferDeck seamless.
+We request you to provide as accurate information as possible.</div>
+            <hr style="border:none;border-top:1px dashed #DEDEDE; height:10px;margin: 0px 23px 0px 23px;"></hr>
+            <table class="container offer-list-container"> 
+            <tr><td>    
+            <form id="frm-questionaire">
+                <h3>Media Source </h3><br />
+                <dl>
+                    <dt class="questions"><label>What kind of campaigns do you normally run on your traffic?</label></dt>
+                    <dd>
+                        <input type="checkbox" id="AppInstall" name="quest_1[]"  value="App Install(CPI)" class="filter-type" >
+                        <label for="AppInstall">App Install(CPI)</label><br />
+                        <input type="checkbox" id="Mobile_Entertainment" name="quest_1[]"  value="Mobile Entertainment-subscription(CPA)" class="filter-type">
+                        <label for="Mobile_Entertainment">Mobile Entertainment-subscription(CPA)</label><br />
+                        <input type="checkbox" id="Lead" name="quest_1[]"  value="Lead generation(CPL)" class="filter-type" >
+                        <label for="Lead">Lead generation(CPL)</label><br />
+                        <input type="checkbox" id="Video" name="quest_1[]"  value="Video(CPCV)" class="filter-type">
+                        <label for="Video">Video(CPCV)</label><br />
+                        <input type="checkbox" id="registration" name="quest_1[]"  value="Registration(CPR)" class="filter-type">
+                        <label for="registration">Registration(CPR)</label><br />
+                        <input type="checkbox" id="others_1" name="quest_1[]"  value="Others" class="others" >
+                        <label for="others_1">Others</label><br />
+                        <div style="display: none;" id="others_1_textbox">
+                            <label for="othersval_1" style="color: #85878C;">Others</label>
+                            <input type="text" id="othersval_1" value="" name='quest_1' class="quest_1_others" placeholder="Enter Comma Separated Values" style="width:50%;">
+                        </div><br /><br />
+                        <div class="clear"></div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="questions"><label> Which Verticals are you strong in?</label></dt>
+                    <dd>
+                        
+                        <input type="checkbox" id="Games" name="quest_2[]"  value="Games" class="filter-type" >
+                        <label for="Games">Games</label><br />
+                        <input type="checkbox" id="Entertainment" name="quest_2[]"  value="Entertainment" class="filter-type">
+                        <label for="Entertainment">Entertainment</label><br />
+                        <input type="checkbox" id="Glamour" name="quest_2[]"  value="Glamour" class="filter-type" >
+                        <label for="Glamour">Glamour</label><br />
+                        <input type="checkbox" id="Utility" name="quest_2[]"  value="Utility" class="filter-type">
+                        <label for="Utility">Utility</label><br />
+                        <input type="checkbox" id="Food" name="quest_2[]"  value="Food" class="filter-type" >
+                        <label for="Food">Food</label><br />
+                        <input type="checkbox" id="E-commerce" name="quest_2[]"  value="E-commerce" class="filter-type" >
+                        <label for="E-commerce">E-commerce</label><br />
+                        <input type="checkbox" id="Social" name="quest_2[]"  value="Social" class="filter-type" >
+                        <label for="Social">Social</label><br />
+                        <input type="checkbox" id="Kids" name="quest_2[]"  value="Kids" class="filter-type" >
+                        <label for="Kids">Kids</label><br />
+                        <input type="checkbox" id="others_2" name="quest_2[]"  value="Others" class="others" >
+                        <label for="others_2">Others</label><br />
+                        <div class="clear"></div>
+                        <div style="display:none;" id="others_2_textbox">
+                            <label for="othersval_2" style="color: #85878C;">Others</label>
+                            <input type="text" id="othersval_2" class="quest_2_others" value="" placeholder="Enter Comma Separated Values" style="width:50%;">
+                        </div><br /><br />
+                    </dd>
+                </dl>
+                <div class="clear"></div>
+                <dl>
+                    <dt class="questions"><label> What are the Ad Units that best describes your traffic?</label></dt>
+                    <dd>
+                        <select id="quest_3">
+                        <option value="">Select</option>
+                        <option value="Display">Display(App/Mobile Web)</option>
+                        <option value="Email">Email</option>
+                        <option value="Video">Video</option>
+                        <option value="SMS">SMS</option>
+                        <option value="Social_media">Social Media</option>
+                        <option value="Native">Native</option>
+                        </select>
+                    </dd>
+                </dl>
+                <div class="clear"></div><br /><br />
+                <dl>
+                    <dt class="questions"><label> Do you have your own/proprietary traffic?</label></dt>
+                    <dd>
+                        <select id="quest_4">
+                        <option value="">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        </select>
+                    </dd>
+                </dl>
+                <div class="clear"></div><br /><br />
+                <dl style="display:none;" id="trafficShow">
+                    <dt class="questions"><label>What is the % of exchange/affiliate traffic vs proprietary?</label></dt>
+                    <dd>
+                        <input type="text" id="othersval_5" class="quest_5_others" value=""  style="width:50%;">  
+                    </dd>
+                </dl>
+                </td>
+                <td style="border-left:1px dashed #DEDEDE;"></td>
+                <td style="padding: 0px 0px 160px 22px;">
+                <h3>Targeting</h3><br />
+                <dl>
+                    <dt class="questions"><label> What kind of traffic you have?</label></dt>
+                    <dd>
+                        <select id="quest_6">
+                        <option value="">Select</option>
+                        <option value="Incent">Incent</option>
+                        <option value="non-incent">Non-Incent</option>
+                        <option value="both">Both</option>
+                        </select>
+                    </dd>
+                </dl>
+                <br /><br />
+                <dl>
+                    <dt class="questions"><label> Are you able to target specific cities?</label></dt>
+                    <dd>
+                        <select id="quest_7">
+                        <option value="">Select</option>
+                        <option value="yes">YES</option>
+                        <option value="no">NO</option>
+                        </select>
+                    </dd>
+                </dl>
+                <br /><br />
+                <dl>
+                    <dt class="questions"><label> Are you able to target specific Carrier?</label></dt>
+                    <dd>
+                        <select id="quest_8">
+                        <option value="">Select</option>
+                        <option value="yes">YES</option>
+                        <option value="no">NO</option>
+                        </select>
+                    </dd>
+                </dl>
+                <br /><br />
+                <dl>
+                    <dt class="questions">Top market for Conversions
+                    <p style="font-size:10px;">(Please list (in order) your top 4 countries for daily installs)</p></dt>
+                    <dd>
+                    <div style="width: 40%; float: left;margin-bottom: 5px;">
+                        <select class="quest_9" id="country_1" onchange="checkSelectedVal(this.id,this.value);">
+                        <option value="select">Select</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="United_States">United States</option>
+                        <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div style="float: right; width: 60%;margin-bottom: 5px;">    
+                        <select class="val_9" id="conv_1" style="width: 15em;">
+                        <option value="">Select</option>
+                        <option value="0 to 1000">0 to 1000</option>
+                        <option value="1001 to 10000">1001 to 10000</option>
+                        <option value="10000 and above">10000 and above</option>
+                        </select>
+                    </div>
+                    <br />  
+                    <div style="width: 40%; float: left;margin-bottom: 5px;">
+                        <select class="quest_9" id="country_2" onchange="checkSelectedVal(this.id,this.value);">
+                        <option value="select">Select</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="United_States">United States</option>
+                        <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div style="float: right; width: 60%;margin-bottom: 5px;">
+                        <select class="val_9" id="conv_2" style="width: 15em;">
+                        <option value="">Select</option>
+                        <option value="0_to_1000">0 to 1000</option>
+                        <option value="1001_to_10000">1001 to 10000</option>
+                        <option value="10000_and_above">10000 and above</option>
+                        </select>
+                    </div>
+                    <br />  
+                    <div style="width: 40%; float: left;margin-bottom: 5px;">
+                        <select class="quest_9" id="country_3" onchange="checkSelectedVal(this.id,this.value);">
+                        <option value="select">Select</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="United_States">United States</option>
+                        <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div style="float: right; width: 60%;margin-bottom: 5px;">
+                        <select class="val_9" id="conv_3" style="width: 15em;">
+                        <option value="">Select</option>
+                        <option value="0_to_1000">0 to 1000</option>
+                        <option value="1001_to_10000">1001 to 10000</option>
+                        <option value="10000_and_above">10000 and above</option>
+                        </select>
+                    </div>
+                    <br />  
+                    <div style="width: 40%; float: left;margin-bottom: 5px;">
+                        <select class="quest_9" id="country_4" onchange="checkSelectedVal(this.id,this.value);">
+                        <option value="select">Select</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="United_States">United States</option>
+                        <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <div style="float: right; width: 60%;margin-bottom: 5px;">
+                        <select class="val_9" id="conv_4" style="width: 15em;">
+                        <option value="">Select</option>
+                        <option value="0_to_1000">0 to 1000</option>
+                        <option value="1001_to_10000">1001 to 10000</option>
+                        <option value="10000_and_above">10000 and above</option>
+                        </select>
+                    </div>
+                    </dd>
+                </dl>
+                </td></table>
+                <hr style="border:none;border-top:1px dashed #DEDEDE; height:10px;margin: 0px 23px 0px 23px;"></hr>
+                <br /><br />
+                <input style="margin: 0px 0px 19px 484px;background: none repeat scroll 0 0 #F8B317;" type="button" id="submit-quest" value="Submit">
+            </form>
+        <div id="loadScreen" style="display: none;width: 100%; height: 100%; top: 0pt;left: 0pt;">
+            <div id="loadScr" style="filter: alpha(opacity = 65);  z-index: 150000;border: medium none; margin: 0pt; padding: 0pt; width: 100%; height: 100%; top: 0pt;left: 0pt; background-color: rgb(0, 0, 0); opacity: 0.2; cursor: wait; position: fixed;">
+            </div>
+            <div id="loader"  style="z-index: 200000; position: fixed; padding: 0px; margin: 0px;width: 30%; top: 40%; left: 35%; text-align: center;cursor: wait; ">
+                <img src="img/ajax-loader.gif" alt="loading" />
+            </div>
+        </div>
+        </section>
+    </body>
+</html>

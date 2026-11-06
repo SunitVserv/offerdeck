@@ -1,0 +1,10 @@
+Hello,
+<br/><br/>
+New User has signed up, below are the details :
+<br/><br/>
+
+__BODY__
+
+<br/>
+Thank you,
+<br/><b>Team Offerdeck.</b>

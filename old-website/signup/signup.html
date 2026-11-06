@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-24x24.png" sizes="24x24">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <title>Offerdeck</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/login/css/style.css" rel="stylesheet" media="screen">
+        <script src="/login/js/jquery-1.10.1.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.js"></script>-->
+
+        <script src="/login/js/jquery.validate.js" type="text/javascript"></script>
+        <script src="/login/js/jquery.cookie.min.js"></script>
+        <!--[if IE]>
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+                <![endif]-->
+        <script src="/login/js/ejs.js"></script>
+        <script src="/login/js/common.js"></script>
+        <script src="/login/js/config.js"></script>
+        <script src="/login/js/leads.js"></script>
+        <script src="/login/js/html5shiv.js"></script>
+        <!--<script src="js/ion.checkRadio.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+        <script type="text/javascript" src="js/daterangepicker.js"></script>
+        <script type="text/javascript" src="js/metadata.js"></script>-->
+        <script src="/login/js/jquery.storageapi.min.js"></script>
+        <script>
+            function showHideSingupForm(type) {
+                $('#reg_err').hide();
+                $("input[type=text]").val('');
+                $("#terms_conditions").prop('checked', false); 
+                $.fn.clearValidation = function(){var v = $(this).validate();$('[name]',this).each(function(){v.successList.push(this);v.showErrors();});v.resetForm();v.reset();};
+                $("#frm-register").clearValidation();
+                
+                if (type == 'google' || type == 'email' || type == 'facebook') {
+                    $("#signup_type").val(type);
+                }
+               
+                var signupAs    = $('input:radio[name=signup_as]:checked').attr('id');
+                var signupType = $("#signup_type").val();
+                if (signupType == 'google') {
+                    //$('#frm-register')[0].reset();
+                    $("#signup-tab_0_id").attr('class', 'signup-tab_1 tabStyle_left');
+                    $("#signup-tab_1_id").attr('class', 'signup-tab_0');
+                    $("#signup-tab_2_id").attr('class', 'signup-tab_1 tabStyle_right');
+                    $("#simple_submit").hide();
+                    $("#google_submit").show();
+                    $("#facebook_submit").hide();
+
+                    if (signupAs.toLowerCase() == 'individual') {
+                        $('#individual').attr('checked',true);
+                        $('#company').attr('checked',false);
+                        $('#name_block').hide();
+                        $('#email_address_block').hide();
+                        $("#skype_block").show();
+                        //$('#contact_name_block').hide();
+                        $('#company_name_block').hide();
+                        $('#company_website_block').hide();
+                        //$("label[for='contact_name']").html('Name:<font color="red">*</font>');
+                    } else {
+                        $('#individual').attr('checked',false);
+                        $('#company').attr('checked',true);
+                        $('#name_block').hide();
+                        $('#email_address_block').hide();
+                        $("#skype_block").show();
+                        $('#company_name_block').show();
+                        //$('#contact_name_block').show();
+                        $('#company_website_block').show();
+                        $("label[for='contact_name']").text('Contact Name:');
+                    }
+                } else if (signupType == 'email') {
+                    $("#signup-tab_0_id").attr('class', 'signup-tab_0 tabStyle_left');
+                    $("#signup-tab_1_id").attr('class', 'signup-tab_1');
+                    $("#signup-tab_2_id").attr('class', 'signup-tab_1 tabStyle_right');
+                    $("#simple_submit").show();
+                    $("#google_submit").hide();
+                    $("#facebook_submit").hide();
+
+                    if(signupAs.toLowerCase() === 'individual') {
+                        $('#name_block').show();
+                        $('#email_address_block').show();
+                        $("#skype_block").show();
+                        //$('#contact_name_block').hide();
+                        $('#company_name_block').hide();
+                        $('#company_website_block').hide();
+                        $("label[for='contact_name']").html('Name:<font color="red">*</font>');
+
+                    } else {
+                        $('#name_block').show();
+                        $('#email_address_block').show();
+                        $("#skype_block").show();
+                        $('#company_name_block').show();
+                        //$('#contact_name_block').show();
+                        $('#company_website_block').show();
+                        $("label[for='contact_name']").text('Contact Name:');
+                        
+                    }
+                } else if (signupType == 'facebook') {
+                   // $('#frm-register')[0].reset();
+                    $("#signup-tab_0_id").attr('class', 'signup-tab_1 tabStyle_left');
+                    $("#signup-tab_1_id").attr('class', 'signup-tab_1');
+                    $("#signup-tab_2_id").attr('class', 'signup-tab_0 tabStyle_right');
+                    $("#simple_submit").hide();
+                    $("#google_submit").hide();
+                    $("#facebook_submit").show();
+
+                    if (signupAs.toLowerCase() == 'individual') {
+                        $('#individual').attr('checked',true);
+                        $('#company').attr('checked',false);
+                        $('#name_block').hide();
+                        $('#email_address_block').hide();
+                        $("#skype_block").show();
+                        //$('#contact_name_block').hide();
+                        $('#company_name_block').hide();
+                        $('#company_website_block').hide();
+                        //$("label[for='contact_name']").html('Name:<font color="red">*</font>');
+                    } else {
+                        $('#individual').attr('checked',false);
+                        $('#company').attr('checked',true);
+                        $('#name_block').show();
+                        $('#email_address_block').hide();
+                        $("#skype_block").show();
+                        $('#company_name_block').show();
+                        //$('#contact_name_block').show();
+                        $('#company_website_block').show();
+                        $("label[for='contact_name']").text('Contact Name:');
+                    }
+                }
+            }
+            $(document).ready(function () {
+                showHideSingupForm('email');
+            });
+        </script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="clear"></div>
+        <section class="view container" style="width:100% !important;height:515px;">
+            <section class="inner-cont apps-site new-app">
+                <div class="login-wraper">
+                    <div class="c2">
+
+                        <form id="frm-register" method="POST">
+                            <input type='hidden' name='signup_type'  id='signup_type' value='email' />
+                            <div id="hide-social-login">
+                                <div class="inner-1" style="margin: 0px auto; width: 642px;">
+
+                                    <div class='tabs'>
+                                        <div class='signup-tab_0 tabStyle_left' id="signup-tab_0_id">
+                                            <a href='javascript:void(0);' onclick="showHideSingupForm('email');"style='padding:10px; vertical-align: sub;'>
+                                                <img  src="img/email.png" style="border: 0; float: left;width: 25px;" />
+                                                <span >Email</span>
+                                            </a>
+                                        </div>
+                                        <div class='signup-tab_1' id="signup-tab_1_id">
+                                            <a href='javascript:void(0);' onclick="showHideSingupForm('google');"style='padding:10px; vertical-align: sub;'>
+                                                <img  src="img/gplus.png" style="border: 0; float: left;width: 25px;" />
+                                                <span >Google</span>
+                                            </a>
+                                        </div>
+                                        <div class='signup-tab_2' id="signup-tab_2_id">
+                                            <a href='javascript:void(0);' onclick="showHideSingupForm('facebook');"style='padding:10px; vertical-align: sub;'>
+                                                <img  src="img/fb.png" style="border: 0; float: left;width: 25px;" />
+                                                <span >Facebook</span>
+                                            </a>
+                                        </div>
+                                        <div style="clear:both;font-size:1px;">&nbsp;</div></div>
+                                    <br><br>
+                                    <div class = "reg-details">
+                                        <dl>
+                                            <dt><label>Sign up as:</label></dt>
+                                            <dd style='font-size:14px;color:#767676;font-weight:700;'>
+                                                <input type="radio" name="signup_as"  id="individual" value="Individual" style='display:inline;width:20px;' onclick="showHideSingupForm()" checked /> Individual
+                                                <input type="radio" name="signup_as"  id="company" value="Company"  style='display:inline;width:20px;' onclick="showHideSingupForm()" /> Company
+                                            </dd>
+                                        </dl>  
+                                        
+                                        <div id='details'>
+                                            <dl id='company_name_block'>
+                                                <dt><label>Company Name:<font color="red">*</font></label></dt>
+                                                <dd><input name="company_name" id="company_name" type="text" /></dd>
+                                            </dl>
+                                            <dl id='company_website_block'>
+                                                <dt><label>Website Url:</label></dt>
+                                                <dd><input name="website_url" type="text" id="website_url" /></dd>
+                                            </dl>
+                                            <dl id="name_block">
+                                                <dt><label for="contact_name">Name:<font color="red">*</font></label></dt>
+                                                <dd><input name="contact_name" id="contact_name" type="text" /></dd>
+                                            </dl>
+                                          
+                                            <dl id="email_address_block">
+                                                <dt><label>Email Address:<font color="red">*</font></label></dt>
+                                                <dd><input name="email_address" id="email_address" type="text" /></dd>
+                                            </dl>
+                                            <dl id="skype_block">
+                                                <dt><label>Skype ID:</label></dt>
+                                                <dd><input type="text"  id="skype_id" name="skype_id" onblur="skype_validation(this.value)">
+                                                 <div id="skype_err" class="error mes input">Your Skype Name must be between 6-32 characters, start with a letter and contain only letters and numbers (no spaces or special characters).</div>
+                                                </dd>
+                                               
+                                            </dl>                   
+                                        </div>                                        
+
+                                    <div class="inner-1" style="float: right;">
+                                        <p class="terms1">
+                                            <input id="terms_conditions" name="terms_conditions"  type="checkbox" name="type">
+                                            <label for="terms_conditions">I agree to the <a class="terms1a" target="_top" style="text-decoration: none;" href="/terms-conditions" rel="nofollow">Terms and Conditions</a>.</label>
+                                        </p>
+                                        <div class="error mes" id="terms_error">
+                                            <span>Please accept the terms and condition<br> if you want to proceed</span>
+                                        </div>
+                                            <div id='simple_submit'>
+                                                <input type ="button" value= "Submit" style=" height: 45px; width: 215px;  background: #F8B317 none repeat scroll 0 0;" class="btn" id="submit-normal"/>
+                                                <span class="loader" style="display: none;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                            </div>
+
+                                        <div id="facebook_submit">
+                                            <label></label>
+                                            <input type ="button" style="background-image: url(img/FB_button.png); height: 45px; width: 215px;" id="fb_signin" >
+                                            <span class="loader" style="display: none;padding-bottom: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                        </div>
+                                        <div id="google_submit">
+                                            <label></label>
+                                            <input type ="button" style="background-image: url(img/Google_button.png); height: 45px; width: 215px;" id="gp_signin" >
+                                            <span class="loader" style="display: none;padding-bottom: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                        </div>
+                                            <div id="reg_err" class="err_messages"></div>
+                                        </div>
+                                    </div><!--reg_detail" -->
+                                </div><!--inner-1" -->
+                            </div>
+
+                            <div id="reg_msg" class="notif_messages"></div>
+                            <input name="from_domain" type="hidden" value="4" />
+                            <input id="at_affiliate" name="at" value="Affiliate" type="hidden"/>
+
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <form id="frm-login" method="POST" style="display:none;">
+                    <input name="channel" type="hidden" />
+                    <input name="access_token" type="hidden" />
+                    <input name="username" type="text" value="" />
+                </form>
+            </section>
+        </section>
+        <div class="clear"></div>
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+            function skype_validation(val){
+                if(val == ''){
+                   $('#skype_err').hide(); 
+                }else{
+                    var str = (/^[a-z][a-z0-9\.,\-_]{5,31}$/i.test(val.toLowerCase()))? 'valid' : 'invalid';
+                    if(str == 'invalid'){
+                        $('#skype_err').show(); 
+                    }else{
+                        $('#skype_err').hide(); 
+                    }
+                } 
+            }
+        </script>
+        <script src="js/register.js"></script>
+    </body>
+</html>
+

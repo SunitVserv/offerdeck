@@ -1,0 +1,1029 @@
+		/*My Account Structre css*/
+body{padding-bottom:15px !important}
+.pad0{padding:0 !important;}
+.account-body{padding:2% 3.5%;width:89%}
+.account-body .left-container{float:left;width:28%}
+.account-body .right-container{float:right;width:69%;border-left:1px solid #e6ebee;padding-left:2.8%}
+.account-body h2{color:#808a9c;font:2.500em Conv_Gotham-Book;padding-bottom:15px }
+.account-body h3{color:#474766;border-bottom:1px solid #e6ebee;font:1.083em Conv_Gotham-Book;text-transform:uppercase;padding:0 0 7px;margin-bottom:15px;}
+
+
+
+.formLayout{padding:10px 0}
+.formLayout dl{margin-bottom:10px;}
+.formLayout dl dd{padding-top: 15px;}
+.formLayout.wide-form dl{margin-bottom:20px;}
+.formLayout dl dt, .formLayout dl dd{display:inline-block;vertical-align:top}
+.formLayout dl dt{width:23.5%;text-align:right;margin:0 2% 0 0}
+.formLayout dl dd, body.change-password .formLayout dl.last dd{width:72.5%;}
+.formLayout.wide-form dl dt, .formLayout.wide-form dl dd, .change-password .formLayout.wide-form dl dt{width:auto; display:block; text-align:left;}
+.formLayout dl dt .first-label{line-height: 42px!important;}
+.formLayout input[type=text],.formLayout input[type=password],.formLayout input[type=email],.formLayout textarea,.formLayout select{border:1px solid #dbdbdb;padding:10px;width:100%;display:inline-block;background-color:#fff;resize:none;border-radius:0;font:14px Conv_Gotham-Book}
+.formLayout dl dd input[type="button"], .formLayout dl dd input[type="submit"], .formLayout dl dd .btn, .save-button a.btn,.login-wraper.get-started .btn {
+  background: #F6C43E none repeat scroll 0 0;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font: 15px Conv_Gotham-Book;
+  margin: 0 10px 0 0;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.formLayout dl dd input[type=button]:hover,.formLayout dl dd .btn:hover,.formLayout dl dd input[type="submit"]:hover,
+.save-button a.btn:hover,.login-wraper.get-started .btn:hover{background: url(../img/primary-btn-bg.png) top left repeat-x;}
+.formLayout.wide-form .check-radio-wrap > div{display:inline-block;}
+.formLayout.wide-form .check-radio-wrap > .richmedia-block{display:block;}
+
+.formLayout dl dd .btn.verify_paypal_status{padding:10px 10px 8px; margin:0;}
+.formLayout dl dt label{font:1.167em Conv_Gotham-Light;color:#9f9f9f;display:block;}
+.preferences .formLayout.form dl dt{width:30%;padding: 10px 0;}
+.preferences .formLayout.form dl dd{width:65%;padding: 10px 0;}
+.preferences .formLayout.form dl dd h5{font:12px Conv_Gotham-Book;display:inline-block;margin-right:10px;color: #9F9F9F;}
+.preferences .formLayout.form dl dd .spacer{display:inline-block; width: 16%;height:1px;}
+.formLayout dl dt label:after{content:" :"}
+.formLayout dl dt label.optional:after{content: ' (optional) :';}
+.formLayout dl.last dt label:after{content:" "}
+.formLayout.form dl dt label, .formLayout.form  dl dd p{line-height:38px;}
+.formLayout.form dl dt label.lblExcludeAdvtCat{line-height:21px; padding:7px 0 0;}
+.my-profile .formLayout  dl dt label{line-height: 38px;}
+body.manage-profile .my-profile .formLayout dl dt label{padding:10px 0 0;line-height: 20px!important;}
+.my-profile .formLayout dl dt label > span.req{color:#f00; font-size:1.3em;}
+.formLayout dl dd p{font:1.167em Conv_Gotham-Book;color:#000;}
+.my-profile .formLayout dl dt label > span.reqAddress{color:#f00; font-size:1.3em;}
+.container.account-blocked{min-height: 250px;display: block;}
+.container.account-blocked p{padding: 80px 3.5%; color: #af0000;font-size: 16px;text-align: center;line-height: 22px;}
+/*My Account Structre css*/
+
+/*left Nav Styles start*/
+.leftNav {width:100%; float:left; }
+.leftNav dl:first-child dt {border:none; }
+.leftNav dl dt {background:#ffffff; }
+.leftNav dl dt a {display:block; color:#000000; font:1.500em Conv_Gotham-Book }
+.leftNav dl dd {padding:10px 0; background:#fff; display:block; }
+.leftNav dl dd ul li {background:url(../img/left-na-li-bg.gif) repeat-y 0px 0; padding:0 0 0 0px; }
+.leftNav dl dd ul li a {background: url(../img/left-nav-a-bg.gif) no-repeat scroll 1px 12px rgba(0, 0, 0, 0); display: block; font: 1.083em/24px 'Conv_Gotham-Light'; padding-left: 29px; }
+.leftNav dl dd ul li a:hover, .leftNav dl dd ul li a.active {color:#808080; text-decoration:none; }
+.leftNav dl dd ul li:last-child {background-repeat:no-repeat; background-position: 0 -6px; }
+/*left Nav Styles end*/
+
+.information{background:url(../img/icon-info.png) no-repeat 0 0; width:18px; height:30px; border:0; position:relative; top:-4px; cursor:pointer; display: inline-block;}
+.my-profile .formLayout dl dd input[type=text],.my-profile .formLayout dl dd input[type=password],.my-profile .formLayout dl dd input[type=email],.my-profile .formLayout dl dd textarea,.my-profile .formLayout dl dd select{width:59%}
+.my-profile .formLayout dl dd input[type="text"][name="paypal_status"] {border: 0 none; width: 37%; background:#fff url(../img/paypal-status-loader.gif) no-repeat center -999px;}
+.my-profile .formLayout dl dd input[type="text"][name="paypal_status"].verify{text-indent:-999em; background-position:center center;}
+.formLayout dl.last{margin-top:25px;}
+.formLayout dl.last dd{width:100%}
+.formLayout dl dd a.cancel,.save-button a.cancel, input.cancel{color:#d00c2c !important;text-transform:none;background:none;padding:7px 0; border:none; cursor:pointer }
+.formLayout dl dd .btn.cancel,.login-wraper .btn , .social-btn{
+  background: #a6abaf none repeat scroll 0 0;
+  border: none;
+  border-radius: 0;
+  color: #fff !important;
+  display: inline-block;
+  font: 15px Conv_Gotham-Book;
+  margin: 0px 10px 0 0;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.formLayout dl dd .btn.cancel:hover,.login-wraper .btn:hover{background: url(../img/secondry-btn-bg.png) top left repeat-x;}
+/*#frmManageProfile select[name=bank_country], #frmManageProfile select[name=bank_country]:disabled{background-image:none !important;}*/
+
+/*heading*/
+.accordion{background:url(../img/full-btn-bg.gif) repeat 0 0;padding:2px;border-radius: 5px;margin-bottom:20px;position:relative;}
+.accordion h4,.accordion .formLayout{background:url(../img/full-btn-bg2.gif) repeat 0 0;}
+.accordion .formLayout{display:none;}
+.accordion h4{display:block;text-align:center;font:18px Conv_Gotham-Light;padding:20px 0;vertical-align: middle;color:#0787ac;cursor:pointer;}
+.accordion h4:before{display:inline-block;width:37px;height:23px;background:url(../img/icon-sprite.png) no-repeat -175px -140px;content:'';vertical-align: middle;margin-right: 10px;}
+.create-message-cnt h4:before{background:url(../img/message-icon.png) 0 0 no-repeat;width: 46px;height: 30px;}
+.accordion a.hide {background: none repeat scroll 0 0 #FFFFFF;border-bottom: 1px solid #c8d6e4;color: #373942;font: 14px conv_gotham-light;padding:7px 13px 7px 10px;position: absolute;right: 2px;top: 2px;}
+.accordion a.hide:before {content: "\f106";display: inline-block;font: 22px/15px FontAwesome;margin-right: 10px;vertical-align: top;}
+
+/*Chanage password*/
+.change-password .formLayout{}
+.change-password .formLayout dl dt {width:23%;}
+/*Chanage password*/
+
+/*create user form*/
+.create-user,.create-message{padding:0 3% 20px}
+.create-user .newUserFrmBox{border-top:1px solid #cfdee8;border-bottom:1px solid #cfdee8;}
+.create-user dl,.create-message dl{display:inline-block; width:45.5%;border-right:1px solid #cfdee8;border-left:none; padding: 9px 3% 14px;margin:0 0 0 -4px}
+.create-user dl{ float:left;}
+.create-user dl.last{float:none;}
+.create-user dl:first-child{padding: 9px 3% 14px 0;width:45.7%; margin: 0;}
+.create-user dl:nth-child(3){border-right:none;padding: 9px 3% 12px;}
+.create-user dl dt,.create-user dl dd,.create-message dl dt,.create-message dl dd{width:100%;text-align:left;}
+.create-user dl dt{margin:0 0 10px;font:normal 12px Conv_Gotham-Light;text-transform: uppercase;}
+.create-user dl.last,.create-message dl.last{margin:20px 0 0;padding:0;border:none; width: auto; display: block;}
+.create-user dl.last dt,.create-message dl.last dt{/*display:none;*/ margin: 0;}
+.create-user dl.last dt .responseStatus,.create-message dl.last dt .responseStatus{text-transform: none;}
+
+/*create message*/
+.create-message dl{border:none;padding:9px 0;}
+.create-message.formLayout dl dt label{margin-bottom:7px;color:#0e0e10;text-transform:uppercase}
+.create-message dl.c1{width:100%;border-bottom:none;}
+.create-message.formLayout textarea{height:67px;}
+.create-message dl.c2{width:62%;padding-right:3%;border-right:1px solid #cfdee8;padding-bottom:3%;}
+.create-message dl.c3{width:32%;padding-left:3%;min-height:105px;}
+.create-message dl.last{width:100%;}
+
+/* --------------------- FILTER ----------------------*/
+.account-filter-wrap {background:url(../img/bg-icon-setting.png) no-repeat right bottom;	float:left;}
+.account-filter-wrap{width:100%}
+.account-filter-wrap h3.account-manager-name{float:right; /*margin:40px 25px 0 0;*/margin:3.4% 25px 0 0; line-height:1.4em;}
+.account-filter-wrap h3.account-manager-name a:hover{text-decoration:underline;}
+.container .account-filter-wrap h1 {padding:3%;	font-weight:normal}
+.account-filter {padding:15px 0 2% 3%;	border-top:1px solid #eff4fa;	float:left;	width:84%;}
+.account-filter .col {float:left; border-right:1px solid #eff4fa; padding:0 1% 0 2%; width:17%; -moz-box-sizing:border-box; box-sizing:border-box;}
+/*.account-filter .col.c3 { width: 19%;}*/
+.account-filter > .col:first-child {padding-left:0}
+.account-filter > .col:last-child {border:none; padding-right:0}
+.account-filter .c1 {width:19%; }
+.account-filter .c5 {width:14%; }
+.account-filter .c6 {width:14%; }
+.account-filter .num {float:left; width:100%; }
+.account-filter .num sup {font-size:1.5em; color:#abacac; font-weight:bold; margin:-4px 0 0; float:left}
+.account-filter .num strong {color:#262627; font-family: 'Conv_Gotham-Bold'; font-size: 2.6em; line-height:0.8em; font-weight:normal}
+.account-filter .num-info {float:left; color:#87888e; font-family: 'Conv_Gotham-Light'; font-size:1em; margin:5px 0 0 0; }
+.account-filter .c1 .r1 {text-transform:uppercase; font-family: 'Conv_Gotham-Light'; margin-bottom:5px; }
+.account-filter .c1 .lbl-date {float:left; margin:5px 5px 0 0; font-family: 'Conv_Gotham-Light'; font-size:0.8em; }
+.account-filter .c1 input {float:left; width:120px; }
+.account-filter .c5 .btn {color:#8a969e; border-radius:2px; float:left; width:75px; margin-bottom:10px; padding:5px 10px; text-align:center; font-size:0.9em; background: #e5e9ec; /* Old browsers */
+	background: -moz-linear-gradient(top, #e5e9ec 0%, #dde1e3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e9ec), color-stop(100%, #dde1e3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e5e9ec 0%, #dde1e3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e5e9ec 0%, #dde1e3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e5e9ec 0%, #dde1e3 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #e5e9ec 0%, #dde1e3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9ec', endColorstr='#dde1e3', GradientType=0 ); /* IE6-9 */}
+.account-filter .c6 {font-family: 'Conv_Gotham-Light'; text-transform:uppercase; font-size:0.8em; }
+.account-filter .c6 select {margin-top:10px; }
+.inner-cont.my-account.new-app {}
+.inner-cont.my-account {float: left; width: 93%; }
+.account-filter select {border:1px solid #dbdbdb; width:120px; font-size:1em; color:#666666; border-radius:0px; -webkit-appearance: none; -moz-appearance:none; background: rgba(0, 0, 0, 0); background:#fff url('../img/arrow-select.png') no-repeat right center; }
+/* to be included in form .css*/
+select {-moz-appearance: none; -webkit-appearance: none; appearance: none;text-indent: 0.01px; text-overflow: ''; padding:10px 30px 10px 10px; cursor:pointer; text-transform:none;   background:#fff url('../img/arrow-select.png') no-repeat right center;background:#fff\9; padding-right: 10px\9;/* IE9,IE10 */}
+select:disabled{background:#fff\9; padding-right: 10px\9;/* IE9,IE10 */}
+#frm-recover .btn{background: url(../img/secondry-btn-bg.png) top left repeat-x;/*  background-color:;color:#a72026;border:1px solid #a72026;border-radius:0;*/}
+.login-wraper #frm-recover{width:40%;}
+.login-wraper #frm-recover .login-form{padding:0;}
+#frm-recover .btn:hover{background-color:#a32439;color:#fff}
+#frm-recover h2{padding:20px 0;}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   select{background:#fff url('../img/arrow-select.png') no-repeat right center; padding-right: 30px;}
+   select:disabled{background:#fff url(../img/arrow-select-disabled.png) no-repeat right center;}
+   
+}
+.ie10 select{background-position:right center;padding-right:33px; }
+/*@media \0screen { select{background-position:-999px} }
+:root select {background-position:-999px\9}*/
+
+/*create user css*/
+.account-body .list-wrap{}
+.account-body .list-wrap dl{}
+.account-body .list-wrap dl li{float:left;width:40%}
+.account-body .list-wrap dl li:last-child{width:20%;}
+.account-body .list-wrap dl li .col{width:46%; margin:0 2% 0 0; display:inline-block;vertical-align:middle;float:none;}
+.account-body .list-wrap dl li:first-child{width:40%}
+.account-body .list-wrap dl li.notification:nth-child(1){width:25%}
+.account-body .list-wrap dl li.notification:nth-child(2){width:35%}
+.account-body .list-wrap dl li.notification:nth-child(3){width:25%}
+.account-body .list-wrap dl li.notification:nth-child(4){width:10%}
+.account-body .list-wrap dl li .macro{width:75%;}
+.account-body .list-wrap dl li.last{width:20%}
+.account-body .list-wrap dl dt,.account-body .list-wrap dl dd{padding: 7px 1.5%;}
+.account-body .list-wrap dl dt{color:#191940;font:11px Conv_Gotham-Book;background:#f8fcff;text-transform:uppercase;border-top:1px solid #e1e7f0;border-bottom:1px solid #e1e7f0;}
+.account-body .list-wrap dl dd{font:12px Conv_Gotham-Book;color:#8e9096;padding:10px 1.5%;border-bottom:1px solid #f1f5fb;}
+.account-body .list-wrap dl dd li .col1{color:#0787ac;font:14px Conv_Gotham-Medium; word-break:break-all;}
+.account-body .list-wrap dl dd li .col2{color:#1e212d}
+/*.account-body .list-wrap dl dd li.last a{background:#dee3e5;color:#8a969e;text-transform:uppercase;padding:5px 10px;display:inline-block;border-radius:2px;}*/
+
+.account-body .list-wrap dl dd li .col5{color:#59a119;}
+.account-body .list-wrap dl dd li.smallResponseStatus{width:auto; float:none; background:#FFDFDF !important; padding:3px 5px; margin:10px -10px -10px;}
+.account-body .list-wrap dl dd li.smallResponseStatus > img.close{float:right; margin:1px 0 0 3px; position:relative; z-index:1; cursor:pointer;}
+.account-body .list-wrap dl dd li .user_status.progress{color:#333; font-style:italic; font-size:0.9em; background:url("../img/small-loader.gif") no-repeat left 3px;padding:1px 0 0 12px; 
+box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.account-body .list-wrap dl dd li .user_status.error, .account-body .list-wrap dl dd li .user_status.inactive{font-size:1em; color:#900;}
+
+/*Message list*/
+.account-body .message-list-cnt{}
+.account-body .message-list-cnt dl dt{color:#191940;font:11px Conv_Gotham-Book;background:#f8fcff;text-transform:uppercase;border-top:1px solid #e1e7f0;padding:10px 2%;color:#474766;}
+.account-body .message-list-cnt dl dd{padding:10px 2%;border-top:1px solid #E1E7F0;border-bottom:1px solid #E1E7F0;color:#8e9096;}
+.account-body .message-list-cnt dl dd.opened{border-top:1px solid #a8b4c4;border-bottom:1px solid #a8b4c4;}
+.account-body .message-list-cnt dl li{float:left;width:12%;}
+.account-body .message-list-cnt dl li:last-child{width:43%;}
+.account-body .message-list-cnt dl li:nth-child(2){float:right;width:45%}
+.account-body .message-list-cnt li div{display:inline-block;width:100%}
+.account-body .message-list-cnt li:nth-child(2) div{width:32.5%}
+.account-body .message-list-cnt li div.clear{display:block;}
+.account-body .message-list-cnt li h4{font:1em Conv_Gotham-Medium;display:inline-block;margin-right:2%}
+.account-body .message-list-cnt li .col2 h4{color:#0787ac;float:left;}
+.account-body .message-list-cnt li p{font:12px Conv_Gotham-Book} 
+.account-body .message-list-cnt li dd .col1 h4{color:#1e212d;}
+.account-body .message-list-cnt li .col2{}
+.account-body .message-list-cnt li .col3{}
+.account-body .message-list-cnt li .col4{}
+.account-body .message-list-cnt li .col4 .open{color:#8a1228;}
+.account-body .message-list-cnt li .col4 .in-review{color:#b3883e;}
+.account-body .message-list-cnt li .col4 .closed{color:#766d6d;}
+.account-body .message-list-cnt li .col5{}
+.account-body .message-list-cnt li .col5 a{display:inline-block;vertical-align:middle}
+.account-body .message-list-cnt li .col5 a.reply{border:1px solid #c2dfef;border-radius:3px;width:20px;height:20px;color:#91b06e;text-align:center;font:12px/20px Conv_Gotham-Book;position:relative;}
+.account-body .message-list-cnt li .col5 a.reply:before {bottom: -8px;color: #BED7E5;content: "\f112";font: 16px FontAwesome;left: -12px; position: absolute;}
+.account-body .message-list-cnt li .col5 a.new{border-left:1px solid #dbdbdb;margin-left:12px;padding-left:12px;color:#0982c7;}
+.account-body .message-list-cnt li .col5 a.new sup{color:#82b744; margin: -12px 0 0 10px;}
+.account-body .message-list-cnt .reply-box{padding:10px 0 0 2%;border-top:1px solid #f1f5fb;margin-top:10px;display:none}
+.account-body .message-list-cnt dl dd.opened .reply-box{display:block;}
+.account-body .message-list-cnt .reply-box p{float: right;width: 87%;}
+.account-body .message-list-cnt .reply-box li{padding:10px 0;}
+.account-body .message-list-cnt .reply-box li:first-child{padding-top:0;}
+.account-body .message-list-cnt .reply-box li span{font:8px Conv_Gotham-Book;color:#82b744;display:inline-block;margin-right:2%;visibility:hidden;}
+.account-body .message-list-cnt .reply-box li span.new{visibility:visible}
+.account-body .message-list-cnt dl .reply-box li,.account-body .message-list-cnt dl .reply-box li:last-child{float:none;width:100%;border-bottom:1px solid #f1f5fb;}
+
+.clumn{width:40%; float:left;}
+
+/*my account permission*/
+.manage-permissions { width:100% }
+.manage-permissions .left { width:30%; float:left; }
+.manage-permissions .header { width:100%; float:left; padding: 28px 0 12px 0; background:#F8FCFF; border-bottom:1px solid #e1e7f0; border-top:1px solid #e1e7f0; }
+a.add-new { float: right; padding: 0 0 0 15px; }
+.manage-permissions .left a.add-new span { background: none repeat scroll 0 0 #DDE1E4; color: #8A969E; float: right; padding: 4px 7px; text-transform: uppercase; }
+.manage-permissions .left .header { padding: 16px 0 15px; }
+.manage-permissions .left a.add-new:before { content: "+"; display:inline-block; background:#c7d1d8; padding: 4px; vertical-align: top; color:#fff; font-size:20px; }
+.manage-permissions .right { width:70%; float:left; overflow-x:auto; max-width:540px; }
+.manage-permissions .right .inner { width:500px; }
+.manage-permissions .right .inner .tick a:before { content: "\f00c"; display:inline-block; vertical-align: top; color:#e3e3e3; width:20px; height:20px; font:normal 24px fontAwesome; }
+.manage-permissions .right .inner .tick a.active:before { color:#abc96b }
+.manage-permissions .right .inner .tick ul li{border-left:1px solid #f5f5f5;text-align:center; margin:0 0 8px;}
+.manage-permissions .right .inner .tick.firstHeadingSpace li{margin-top:50px}
+.manage-permissions .right .inner .tick.headingSpace li{padding-top:50px}
+.manage-permissions .right .inner .tick ul li a {display:inline-block;margin:5px 0; cursor: default;}
+.manage-permissions .right ul li { /*width:83px;*/ width:49%; float:left; text-transform:uppercase; font-family:'Conv_Gotham-book', Arial, Helvetica, sans-serif; font-size:0.917em; color:#191940; display:block;/* padding:0 15px;*/ padding:0;word-wrap:break-word; text-align:center;}
+.manage-permissions .right ul li:last-child { padding-right:0; }
+.manage-permissions .right ul li a { text-transform:none; font-family:'Conv_Gotham-book', Arial, Helvetica, sans-serif; font-size:0.750em; color:#d00c2c; display:block; }
+.manage-permissions .cat { width:100%; }
+.manage-permissions .cat dl:first-child dt { border: medium none; }
+.manage-permissions .cat dl dd { background: none repeat scroll 0 0 #FFFFFF; display: block; padding:0; }
+.manage-permissions .cat dl dt { background:none; color: #2f2f36; display: block; font: 1.333em Conv_Gotham-Book;padding: 15px 0;}
+.manage-permissions .cat dl dd ul li { display: block; font:1.167em 'Conv_Gotham-Light'; padding-left: 29px; color:#5f5f5f; line-height:30px; margin:0 0 8px; }
+.save-button { text-align: right; margin:30px 0 0 0; }
+#ascrail2000 {display: none!important}
+
+#dl-account_type,#dl-account_name {display: none;}
+/*earnings history*/
+.earning-container{overflow:hidden; position:relative;}
+.earning-nav{display:none;}
+.earning-nav a{position:absolute; /* background: url(../img/bck-table-nav.png) repeat-y 0 0; */ top:10px; bottom:0; width:30px; right:0;}
+.earning-nav a.prev{ /* background-image:url(../img/bck-table-nav2.png);*/ right:auto; left:0; display:none;}
+.earning-nav a > img{position:absolute; top:50%; right:10px; margin-top:-20px;}
+.earning-nav a.prev > img{position:absolute; top:50%; right:auto; left:10px; margin-top:-20px;}
+.earning-history{ color: #909297;}
+.earning-history .heading{background:#868686;}
+.earning-history .heading h4{width:6%;visibility:hidden}
+.earning-history .last h4, .earning-history .last .income {color:#000}
+.earning-history .heading h4:after,.earning-history dl.last dd h4:after{content:''}
+.earning-history .clumn{width:44%;text-align:center;}
+.earning-history .clumn h2{color:#A4A4AE; font-size: 1.2em; padding: 10px 0; font-family: 'Conv_Gotham-Book';}
+.earning-history dl h4 {
+  float: left;
+  font: bold 12px/22px Conv_Gotham-Book;
+  padding: 8px 0;
+  text-align: left;
+  width: 14%;
+}
+.earning-history dl dd:last-child{border-bottom:1px solid #ccc;/* background:#f1f2f3;*/}
+.earning-history dl dd:last-child ul{border:none;}
+.earning-history dl dt h4{cursor:pointer; color:#0787AC; background:#fff;}
+.earning-history dl dt{border-bottom:1px solid #ccc; background:#f1f2f3 url(../img/bck-white-earning-h4.png) repeat-y 0 0;}
+.earning-history dl dt h4:after{font:12px fontAwesome;content:'\f101';display: inline-block;font: 16px fontAwesome;margin-left: 6px;}
+.earning-history dl dt.active h4:after{content:'\f103';}
+.earning-history dl ul,.earning-history dl ul li{float:left;}
+.earning-history dl ul{/*width:42%;*/width:43%;}
+.earning-history dl dd ul{/*border-bottom:1px solid #CCCCCC;*/ }
+.earning-history dl ul li{width:30%;padding:10px 1.5%;font: 12px/18px conv_gotham-book;word-wrap:break-word;}
+.earning-history dl .income{/*background:#F1F2F3;*/}
+.earning-history dl .payment{background:#EDEEEF;}
+.earning-history dl dd{display:none; border-bottom:1px solid #ccc; background:#f1f2f3 url(../img/bck-white-earning-h4.png) repeat-y 0 0;}
+.earning-history dl.last dd,.earning-history dl dd.display{display:block;}
+.earning-history .heading{ background: none repeat scroll 0 0 #FAFBFC; border-bottom: 2px solid #FFFFFF; box-shadow: 0 1px 0 #E1E7F0; color:#A4A4AE; }
+
+/*** Indian earnings **/
+.earning-history.in dl h4{width:7.5%; background:#fff;}
+.earning-history.in dl ul{width:77%;}
+.earning-history.in dl .payment{width:15.5%;}
+.earning-history.in dl ul li{padding:10px 0.5%; width:13.6%; font-size:11px; text-align:center;}
+.earning-history.in dl ul.income li.last{width:11%;}
+.earning-history.in dl ul.payment li{display:block; float:none; width:auto;}
+.earning-history.in dl ul.payment li span{font-size:8px; font-style:italic;}
+.link-invoice {background: url("../img/ico-invoice-download.png") no-repeat 3px center #fff; border: 1px solid #d5e5f2; border-radius: 3px; padding: 3px 1px 3px 13px; margin:-3px 0; font-size: 1em; cursor:pointer; color:#a7be32; transition:all 0.1s linear;}
+.link-invoice:hover{background-color:#f7f7f7;}
+/*** Indian earning -end ***/
+
+.loginPage h5.login-title {
+  font-size: 21px;
+  font-weight: 300;
+  padding-bottom: 65px;
+  text-align: center;
+	padding-top:45px;
+}
+
+.login-wraper{width:100%;padding:0;}
+.login-wraper{}
+.social-signup{width:100%;padding:0;}
+.social-signup{}
+
+.refer-friend  { padding: 2% 3.5%;  width: 83%;}
+.refer-friend .list-wrap{width:100%;}
+.refer-friend .list-wrap dl{}
+.refer-friend .list-wrap dl li{float:left;width:35%}
+.refer-friend .list-wrap dl li .col{width:48%;display:inline-block;vertical-align:middle;float:none;}
+.refer-friend .list-wrap dl li:first-child{width:50%}
+.refer-friend .list-wrap dl li:last-child{width:15%}
+.refer-friend .list-wrap dl dt,.account-body .list-wrap dl dd{padding: 7px 1.5%;}
+.refer-friend .list-wrap dl dt{color:#191940;font:11px Conv_Gotham-Book;background:#f8fcff;text-transform:uppercase;border-top:1px solid #e1e7f0;border-bottom:1px solid #e1e7f0;}
+
+.refer-friend .list-wrap dl dt .col { text-align:left}
+.refer-friend .list-wrap dl dt li .col1{ width:35%;}
+.refer-friend .list-wrap dl dt li .col5{ width:57%}
+
+.refer-friend .list-wrap dl dd{font:12px Conv_Gotham-Book;color:#8e9096;padding:10px 1.5%;border-bottom:1px solid #f1f5fb;}
+.refer-friend .list-wrap dl dd li .col1{ width:35%; color:#0787ac;font:14px Conv_Gotham-Medium}
+.refer-friend .list-wrap dl dd li .col2{color:#1e212d}
+.refer-friend .list-wrap dl dd li .col2 input { width:100%}
+.refer-friend .list-wrap dl li .col3 { width:95%}
+.refer-friend .list-wrap dl dd li:last-child a{background:#dee3e5;color:#8a969e;text-transform:uppercase;padding:5px 10px;display:inline-block;border-radius:2px;}
+.refer-friend .list-wrap dl dd li .col5{color:#59a119;}
+
+.refer-friend .save-button{text-align:right; margin:20px 0 0 0; }
+.refer-friend  .err_messages {float: left;}
+
+.right-container.refer-friend{width:65%;}
+.my-profile .formLayout dl dd input.service_tax_txt{width: 29%;}
+.my-profile .formLayout dl dd input.service_tax_txt + .tt_parent_data{width:29%; display:inline-block;}
+.my-profile .formLayout dl dd input.service_tax_txt + .tt_parent_data .service_tax_txt{width:100%;}
+
+/** Service Tax Rules Overlay ***/
+.small-help{background:url(../img/ico-help.png) no-repeat 0 0; width:15px; height:15px; border:0; position:relative; top:2px; cursor:pointer;}
+@-moz-document url-prefix() {
+	.small-help {top:-4px;}
+}
+#service_tax_rules{position:fixed; top:0; bottom:0; left:0; right:0; z-index:99999999; background:url(../img/transparent-black-30.png); background:rgba(0,0,0,0.3); display:none; overflow:hidden;}
+#service_tax_rules .overlayBox{display:block; box-shadow:rgba(0,0,0,0.7) 0 0 10px; transition:all 0.2s ease-out; margin:25px auto; display:block; position:absolute; top:25px; bottom:25px; left:100px; right:100px; border-radius:5px;}
+#service_tax_rules .overlayBox .closeBtn:before{content:'';}
+#service_tax_rules .overlayBox .content{overflow:auto; position:absolute; top:35px; bottom:10px; left:10px; right:10px; padding:0 15px 0 0; text-align:justify;}
+#service_tax_rules .overlayBox .content, #service_tax_rules .overlayBox .content p, #service_tax_rules .overlayBox .content li{font-size:1.1em; color:#000; line-height:1.2em;}
+#service_tax_rules .overlayBox .content p{margin-bottom:15px;}
+#service_tax_rules .overlayBox .content li{padding-bottom:10px; padding:0 0 10px 5px; margin:0 0 0 24px;}
+#service_tax_rules .overlayBox .content li li{font-size:1em;}
+#service_tax_rules .overlayBox .content li li li{padding-bottom:0px;}
+
+/*Login page*/
+.login-wraper{padding-bottom:135px;}
+.social-signup{padding-bottom:135px;}
+.social-signup *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -ms-word-break: keep-all; word-break: keep-all; -webkit-word-break: keep-all; -moz-word-break: keep-all; word-wrap: break-word;}
+.login-wraper *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -ms-word-break: keep-all; word-break: keep-all; -webkit-word-break: keep-all; -moz-word-break: keep-all; word-wrap: break-word;}
+/*.login-wraper .colm2{float:left; width:50%;}
+.login-wraper .c1{width:50%;float:left; margin-left:-1px; border-left:#d1d1d1 solid 1px;}*/
+.login-wraper .social-login{text-align:center; padding:6% 0;	display:block;position:relative;float:left; width:50%;}
+.login-wraper #frm-login{width:50%;float:left; margin-left:-1px; border-left:#d1d1d1 solid 1px;}
+/*.login-wraper #frm-register{width:50%;float:left; margin-left:-1px; border-left:#d1d1d1 solid 1px;}*/
+//.social-signup #frm-social-register{width:50%;float:left; margin-left:-1px; border-left:#d1d1d1 solid 1px;}
+//#frm-social-register{padding:0 0 0 10px;}
+.social-signup input {  background: none repeat scroll 0 0 #FFFFFF;  padding: 10px;  width: 100%; border:1px solid #d0d0d0; border-radius:5px; box-shadow:inset  0px 1px 0px 0px rgba(0,0,0,0.08)}
+.social-signup input:focus{border:1px solid #000;}
+.social-signup d1{padding-bottom:8px; }
+.social-signup dd{padding:15px 0; padding-top:8px }
+//#signup-form_social {padding: 3px 347px;    }
+#signup-form_social dl {width: 100%; overflow: hidden;margin: -16px;}
+#signup-form_social dt {float: left; width: 50%; padding-top:20px}
+#signup-form_social dd {float: left; width: 50%;}
+.login-form{padding:35px 150px}
+.login-wraper input {  background: none repeat scroll 0 0 #FFFFFF;  padding: 10px;  width: 100%;	border:1px solid #d0d0d0; border-radius:5px; }
+.login-wraper input:focus{border:1px solid #000;}
+.login-wraper d1{padding-bottom:8px; }
+.login-wraper dd{padding:15px 0; padding-top:8px }
+#signup-form dl {width: 100%; overflow: hidden;margin: -16px;}
+#signup-form dt {float: left; width: 50%; padding-top:20px}
+#signup-form dd {float: left; width: 50%;}
+.login-wraper .class-center{text-align:center}
+.social-signup .class-center{text-align:center}
+.forgot-password{color:#f7931e; display:block;float:right; line-height: 16px;text-align:right;}
+.login-wraper .class-center .forgot-password{float:none;  display:inline-block; color:#30353b; font-size:14px;}
+.btn-login {float: none;margin: 0;display:inline-block}
+.div-register span{display:block; color:#8f8f8f; margin-top:5px; margin-bottom:5px; font-size:16px;}
+.div-register .btn-register{font-size:14px;color:#30353b; font-size:14px;}
+.social-login a.signing-facebook{display:block; margin:0 auto; margin-top:15px;}
+
+/*Register*/
+.login-wraper.get-started{width:590px; margin:0 auto; padding-top:30px; padding-bottom:230px;}
+.get-started .social-login{float:none; width:100%; padding:0; padding-bottom:50px; position:relative; border-bottom:#d0d0d0 solid 1px; margin-bottom:50px;}
+.get-started .social-login:after{content:'OR'; background:#fff; color:#6e777e; position:absolute; left:50%; bottom:-10px;width:50px; margin-left:-35px; font-size:20px; font-weight:600; padding:5px 10px}
+//.get-started .social-login #fb_signin{display:none}
+.login-wraper.get-started .c2 {background: none; float: none; margin-right: 0;}
+.login-wraper.get-started .c2 h2{text-align:center; color:#48505d;}
+
+.social-signup {width:590px; margin:0 auto; padding-top:30px; padding-bottom:230px;}
+.social-signup .c2 {background: none; float: none; margin-right: 0;}
+.social-signup .c2 h5{text-align:center; color:#48505d;}
+.getstarted-fields{width:430px; margin:0 auto}
+.login-wraper.get-started .inner-1{width:430px; margin:0 auto}
+.social-signup .login-form1{width:430px; margin:0 auto}
+.login-wraper.get-started .terms1a{color:#194c79}
+
+/*My account manage profile*/
+.leftNav dl dd ul li a{color:#6e3584}
+.leftNav dl dt a{color:#485371}
+.account-body h2{color:#6e3584}
+.account-manager-name a{color:#6e3584}
+
+.account-body .list-wrap dl dd li .col1{color:#6e3584}
+
+.account-body .list-wrap dl dd li .col5{color:#a72026}
+.account-body .list-wrap dl dd li.last a{display:inline-block;margin:0 10px 0 0;text-transform:uppercase;border:none;
+background:#fff;color:#626e75 !important;border-radius:3px; -webkit-appearance: none; border:#d3d8dc 1px solid; 
+border-radius:0px;}
+.account-body .list-wrap dl dd li.last a:hover{background:#A6ABAF none repeat scroll 0 0}
+
+/** START - PAGINATION **/
+.pagination ul li a{background: none;color: #6e3584;border: #fff solid 1px;border-radius: 4px;}
+.pagination ul li a:hover{color: #333}
+.pagination ul li a.active{color: #999;}
+/** END - PAGINATION **/
+.account-body .list-wrap dl dd li.last a{border:#d3d3d3 solid 1px}
+.earning-history dl dt h4{color:#6e3584}
+.earning-history .clumn h2{color:#6e3584}
+.manage-permissions .right ul li{line-height:14px}
+.manage-permissions .cat dl dt{color:#6e3584}
+.accordion h4::before{background-position:-175px -165px;}
+.accordion h4{color:#6e3584}
+.login-wraper #login_err{margin-bottom:10px;}
+body.create-password-page .inner-cont.apps-site{min-height: 500px;}
+body.create-password-page .err_messages{padding-bottom: 10px;}
+
+@media (max-width: 1250px){
+	.earning-history.in{width:160%;}
+	.earning-nav.in{display:block; position:relative}
+	.login-form{padding-left:70px; padding-right:35px;}
+        .login-form1{padding-left:70px; padding-right:35px;}
+	.login-wraper{margin:0 auto; float:none}
+        .social-signup{margin:0 auto; float:none}
+}
+
+@media (max-width: 1024px){
+	.earning-history.in{width:auto;}
+	.earning-nav.in{display:none;}
+	.earning-history.in .tab-hide{display:none;}
+	
+	/*** Indian earnings **/
+	.earning-history.in dl h4{width:11%;}
+	.earning-history.in dl ul{width:67%;}
+	.earning-history.in dl .payment{width:22%;}
+	.earning-history.in dl ul li{padding:10px 0.5%; width:32%; font-size:11px; text-align:center;}
+	
+	/*** Indian earning -end ***/
+}
+
+@media (max-width: 768px){
+	#service_tax_rules .overlayBox{left:15px; right:15px;}
+	#service_tax_rules .overlayBox .content, #service_tax_rules .overlayBox .content p, #service_tax_rules .overlayBox .content li{font-size:1em;}
+
+}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+.create-user .newUserFrmBox{border:0;}
+.account-body .right-container {position: relative;}
+a.add-new {position: absolute;  right: 28px; top: 32px;}
+.account-body h2 {font: 2em Conv_Gotham-Book;}
+.manage-permissions .left .header {padding: 14px 0 25px!important;}
+.account-body{padding:0;}
+.leftNav dl dt a{padding:27px 0 7px 6%}
+.account-body .right-container{padding:23px 2.8%; width: 66.2%;}
+.leftNav dl dd{padding:0;}
+.leftNav dl dd ul li{padding:0;border-bottom:1px solid #fff;background:none;}
+.leftNav dl dd ul li a {
+  background: #e8e0ec none repeat scroll 0 0;
+  color: #6f3488;
+  padding: 7px 0 7px 6%;
+}
+.leftNav dl dd ul li a:hover,.leftNav dl dd ul li a.active{color:#000;background:#dfd0e6;}
+
+.formLayout dl dd input[type="text"], .formLayout dl dd input[type="password"], .formLayout dl dd input[type="email"], .formLayout dl dd textarea, .formLayout dl dd select{width:100%}
+.my-profile .formLayout dl dd input[type="text"],.my-profile  .formLayout dl dd input[type="password"],.my-profile  .formLayout dl dd input[type="email"],.my-profile  .formLayout dl dd textarea,.my-profile  .formLayout dl dd select{width:100%;}
+.formLayout input[type=text],.formLayout input[type=password],.formLayout input[type=email],.formLayout textarea,.formLayout select, .formLayout dl dt label{font-size:11px;}
+.formLayout dl dd{width:53%;}
+.formLayout dl dd a.btn,.save-button a.cancel,.save-button a.btn{/*padding:14px 20px*/ padding:7px 20px;}
+.formLayout dl dd a.cancel,.save-button a.cancel{background:#ebedef;}
+.change-password .formLayout dl dt,.change-password .formLayout dl dd{width:100%;text-align:left}
+
+.change-password .formLayout a{background:#f4f6fb;box-shadow:0 1px 1px #eaeef7;color:#646d83;margin:5px 0;padding:7px 10px;font:11px Conv_Gotham-Light}
+.formLayout dl dd .clumn{width:50%}
+.formLayout dl dd .clumn select{padding-right: 19%;}
+.formLayout.form dl dt label, .formLayout.form dl dd p{text-transform:uppercase;font:11px/38px Conv_Gotham-Light;}
+.change-password .formLayout.form dl dt label,.change-password .formLayout.form dl dd p{padding-bottom:5px;}
+.create-user dl,.create-user dl:first-child,.create-user dl:nth-child(3),.create-message dl{float:none;width:100%;margin:0 0 20px;border:none;padding:0;}
+.create-user dl.last,.create-message dl.last{margin:0;}
+.create-user dl dt,.create-user dl dd,.create-message dl dt,.create-message dl dd{width:100%;}
+.create-user dl dt{color:#a0a4b1;text-transform:uppercase;margin-bottom:5px;}
+/*Crteate Message*/
+.create-message dl.c2,.create-message dl.c3{padding:0;border:none;width:100%;min-height:0;}
+
+
+.refer-friend .list-wrap{width:95%;}
+
+
+/* --------------------- FILTER ----------------------*/
+.account-filter .num strong {font-family: 'Conv_Gotham-Medium'; font-size:2.5em;font-weight:normal}
+.account-filter-wrap {background:none; border-bottom:1px solid #dbe3e9}
+.account-filter {width:100%; background:#f2f6ff; padding:0; }
+.account-filter > .col:first-child {float:left; width:100%; background:#fff; padding:15px 0 2% 3%}
+.account-filter .col {padding:0 0 2% 3%; }
+.account-filter .c1 {border-bottom:1px solid #dbe3e9}
+.account-filter .tab-group {float:left; width:60%; margin:4% 0 0 0; border:none; padding:0 0 0 4%; }
+.account-filter > .col:last-child {width:35%; border-left:1px solid #e3e8f5; padding:6% 0 0 4%; min-height:200px; }
+.account-filter .c6 p {font-size:1.8em;}
+.account-filter .c2, .account-filter .c3, .account-filter .c4 {width:33%; border-right:1px solid #e3e8f5} 
+.account-filter .c2 {padding-left:0}
+.account-filter .tab-group .c4 {border:none}
+.account-filter .tab-group .c5 {width:100%; margin:4% 0 0 0; padding:0;}
+.account-filter .tab-group .c5 .btn {background:#fff; border:1px solid #d5e5f2; padding:15px; border-radius:5px; -moz-box-sizing: border-box; box-sizing: border-box; width:45%; color:#8fb148; text-transform:none; font-size:1.1em; margin-right:4%;}
+.account-filter select {width:90%;}
+.account-filter select {background:#fff url('../img/arrow-select-tab.png') no-repeat right!important; padding:15px}
+
+.account-body .list-wrap dl dt{display:none}
+.account-body .list-wrap dl dd {width:100%;border:1px solid #dddde7;padding:0 ;border-radius:5px;color:#0e0e10;margin-bottom:20px;}
+.account-body .list-wrap dl dd li,.account-body .list-wrap dl li:last-child{float:none;width:93%;margin:0 3.5%;padding:20px 0 }
+.account-body .list-wrap dl dd li:first-child{padding:3% 3.5%;margin:0;width:93%;background:#f7f7f9;border-radius:5px 5px 0 0;border-bottom:1px solid #e7e7e7;}
+.account-body .list-wrap dl dd li.last{border-top:1px solid #e7e7e7;padding:15px 0}
+.account-body .list-wrap dl dd li.last a{display:inline-block;padding:13px 24px;color:#626e75;font:13px Conv_Gotham-Book}
+.account-body .list-wrap dl dd li .col1{}
+.account-body .list-wrap dl dd li .col2{text-align:right}
+.account-body .list-wrap dl dd li .col:before{color:#909297;display:inline-block;margin-right:10px;font:14px Conv_Gotham-Light}
+.account-body .list-wrap dl dd li .col2:before{content:'Role:';}
+.account-body .list-wrap dl dd li .col3:before{content:'Email/ login ID';width:100%;margin-bottom:5px;}
+.account-body .list-wrap dl dd li .col4:before{content:'Mobile number';width:100%;margin-bottom:5px;}
+.account-body .list-wrap dl dd li .col5:before{content:'Status:';}
+.account-body .list-wrap dl dd li .user_status.progress{font-size:1em; padding-left:17px; background-position:0 5px;}
+.account-body .list-wrap.address-book dl dd li .col2:before{content:'User type:';}
+.account-body .list-wrap.address-book dl dd li .col3:before{content:'Phone';width:100%;margin-bottom:5px;}
+.account-body .list-wrap.address-book dl dd li .col4:before{content:'Email';width:100%;margin-bottom:5px;}
+.account-body .list-wrap.address-book dl dd li .col5:before{content:'Skype:';}
+
+.account-body .list-wrap dl dd li .col6{text-align:right}
+.account-body .pagination {padding: 28px 0  4% 0;width:100%}
+.manage-permissions .left {width:40%;}
+.manage-permissions .cat dl dd ul li{padding-left:5px;/*height:30px;line-height:normal;*/height:31px;line-height:1;}
+.manage-permissions .right {width:60%;}
+
+.refer-friend .list-wrap dl dd li .col1:before{content:'Referal';}
+.refer-friend .list-wrap dl dd li .col2:before{content:'Email ID';}
+.refer-friend .list-wrap dl dd li .col3:before {  content: "Submitted On";  margin-bottom: 5px;  width: 100%;}
+.refer-friend .list-wrap dl dd li .col1{width:100%; text-align:left}
+.refer-friend .list-wrap dl dd li .col2{width:100%; text-align:left}
+.refer-friend .list-wrap dl dd li{padding:5px 0;}
+.refer-friend .list-wrap dl dd li .col2 input{width:84%;}
+
+.my-profile .formLayout dl dd input.service_tax_txt{width: 48%;}
+.my-profile .formLayout dl dd input.service_tax_txt + .tt_parent_data{width:48%;}
+.my-profile .formLayout dl dd input.service_tax_txt + .tt_parent_data .service_tax_txt{width:100%;}
+.login-wraper #frm-recover .login-form {
+  padding:0 0 30px 0;
+}
+.login-wraper #frm-recover {
+  width:50%;
+}
+/*.account-filter-wrap h3.account-manager-name{margin:23px 25px 0 0;}*/
+
+/*Login*/
+
+}
+.account-body .list-wrap dl dd li.last a{background: #A6ABAF none repeat scroll 0 0;
+border: medium none;
+border-radius: 7px;
+color: #fff !important;
+cursor: pointer;
+overflow: hidden;
+padding: 5px 15px;
+position: relative;
+text-transform: uppercase;
+transition: all 0.1s linear 0s;}
+.account-body .list-wrap dl dd li.last a::after,button.download-creatives:after {
+  background: #6b777e none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 50%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+   display: none;
+}
+.account-body .list-wrap dl dd li.last a::before,button.download-creatives:before {
+  content: "Disable";
+  position: absolute;
+  z-index: 99;
+  display: none;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.account-body .list-wrap dl dd li.last a:hover:after,.account-body .list-wrap dl dd li.last a:hover:before{display: block;}
+@media only screen and (min-width:0px) and (max-width: 600px) {
+/* --------------------- FILTER ----------------------*/
+.account-filter .num strong {font-family: 'Conv_Gotham-Medium'; font-size:2em;font-weight:normal}
+.account-filter .tab-group {width:auto; display:inline; float:none; padding:0 }
+.account-filter .c2, .account-filter .c3, .account-filter .tab-group .c4 {width:33%; border-bottom:1px solid #e3e8f5; margin:3% 0 0 0; padding:0 0 3% 3%;  -moz-box-sizing: border-box; box-sizing: border-box; }
+.account-filter .tab-group .c5 {width:48%; padding:0 0 0 2% }
+.account-filter .tab-group .c5 .btn {font-size:1em}
+.account-filter > .col:last-child {width:50%; float:right;  padding:4% 0 0 3%; border:none; min-height:110px; }
+.account-filter select {width:140px; padding:10px; font-size:0.8em;}
+.left-container{display:none;}
+.container.account-body {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);display:block;}
+.account-body .right-container{margin: 0;padding: 2% 5%;background:#fff;float:none;width:89%}
+a.add-new { right: 23px; top: 18px;}
+.preferences .formLayout.form dl dd .spacer:before{content:'Email'}
+.preferences .formLayout.form dl .clumn{width:100%;margin-bottom:20px;}
+.right-container.preferences .formLayout.form  dl dd:before{content:'user';display:block;padding-bottom:7px;}
+.right-container.preferences .formLayout.form  dl dd.pad0{display:none;}
+.right-container.preferences .formLayout.form dl dt label{padding:0;}
+.preferences .formLayout.form h3 + dl dt{display:none}
+.preferences .formLayout.form dl dt{width:100%;text-align:left;color:#000;}
+.right-container.preferences .formLayout.form dl.last dd:before{content:''}
+
+body.create-password-page .inner-cont.apps-site{min-height: 0;}
+}
+@media (max-width: 800px){
+	/*.account-filter-wrap h3.account-manager-name{margin:17px 25px 0 0;}*/
+}
+@media (max-width:786px){
+.account-filter-wrap h3.account-manager-name{display:block; float:none; margin:0 0 15px 20px; font-weight:400; font-size:1em; margin:0 0 15px 3%;}
+.earning-history{width:160%;}
+.earning-nav{display:block; position:relative}
+
+/*login*/
+.login-wraper{padding-bottom:0}
+.login-wraper .social-login{float:none; width:100%; padding:2% 0; }
+.login-wraper #frm-login{float:none; margin:0 auto; width:100%; border:none}
+.login-wraper #frm-register{float:none; margin:0 auto; width:100%; border:none}
+#frm-social-register{float:none; margin:0 auto; width:100%; border:none;}
+.loginPage h5.login-title{padding-top:15px; padding-bottom:20px;}
+.login-wraper.get-started .social-login{padding-bottom:30px;}
+
+}
+
+@media screen and (min-width:0px) and (max-width:480px){
+.formLayout.form dl dt label, .formLayout.form dl dd p{line-height:normal;text-align:left;padding-bottom:7px;}
+.formLayout.form dl dt label.lblExcludeAdvtCat{line-height:38px; padding:7px 0;}
+.formLayout.form dl{margin-bottom:20px;}
+.formLayout.pad0 dl{margin:0;}
+.my-profile .formLayout.pad0 dl{margin-bottom:20px;}
+.account-body .list-wrap dl dd li .col1,.account-body .list-wrap dl dd li .col2{width:100%;}
+.account-body .list-wrap dl dd li:first-child{padding: 5% 6%;width: 88%;}
+.account-body .list-wrap dl dd li:first-child .col1{font-size:24px;}
+.account-body .list-wrap dl dd li .col2{text-align:left}
+.account-body .list-wrap dl li .col{font:14px Conv_Gotham-Book}
+/* --------------------- FILTER ----------------------*/
+.account-filter .num strong {font-size:1.2em}		
+.account-filter .num-info {font-size:0.8em}
+.account-filter .tab-group .c5 .btn {font-size:0.9em; padding:5px;}
+.account-filter .c6 p {font-size:1.2em;}
+.account-filter > .col:last-child {min-height:88px;}
+
+.formLayout dl dt {width: 100%; text-align: left}
+.formLayout dl dd {width: 100%}
+.formLayout dl.last {margin-top: 0px;}
+
+.earning-history dl h4{font:bold 8px/16px Conv_Gotham-Book;float:left; }
+.earning-history dl ul li{font: 9px/18px conv_gotham-book;padding: 10px 1.5%;width: 30%;} 
+.earning-history dl dt h4:after{font:8px/16px fontAwesome; margin-left:3px;}
+.container.refer-friend {width: 93%;}
+.refer-friend .list-wrap dl dt{display:none;}
+.refer-friend .list-wrap{width:97%;}
+.refer-friend .list-wrap dl dd {width:100%;border:1px solid #dddde7;padding:0 ;border-radius:5px;color:#0e0e10;margin-bottom:20px;}
+.refer-friend .list-wrap dl dd li,.account-body .list-wrap dl li:last-child{float:none;width:93%;margin:0 3.5%;padding:10px 0 }
+.refer-friend .list-wrap dl dd li:first-child{padding:3% 3.5%;margin:0;width:93%;background:#f7f7f9;border-radius:5px 5px 0 0;border-bottom:1px solid #e7e7e7;}
+ 
+.refer-friend .list-wrap dl dd li:last-child a{display:inline-block;padding:13px 24px;color:#626e75;font:13px Conv_Gotham-Book}
+.refer-friend .list-wrap dl dd li .col1{width:100%;}
+.refer-friend .list-wrap dl dd li .col2{width:100%;}
+.refer-friend .list-wrap dl dd li .col:before{color:#909297;display:inline-block;margin-right:10px;font:14px Conv_Gotham-Light; content:'Referal';}
+.refer-friend .list-wrap dl dd li .col2:before{content:'Email ID';}
+.refer-friend .list-wrap dl dd li .col3:before{content:'Submitted On';width:100%;margin-bottom:5px;}
+.refer-friend .list-wrap dl dd li .col4:before{content:'';width:100%;margin-bottom:5px;}
+.refer-friend .list-wrap dl dd li .col5:before{content:'Status';}
+.refer-friend .list-wrap dl dd li .col2 input{width:76%;}
+
+.formLayout dl dd .btn.cancel{margin-top:10px;}
+
+
+}
+@media only screen and (min-width: 0) and (max-width:767px) {
+
+/*register*/
+.login-wraper.get-started{width:90%; margin:0 auto}
+.social-signup{width:90%; margin:0 auto}
+.getstarted-fields{width:100%;}
+.login-wraper.get-started .inner-1{width:100%; float:right;}
+.social-signup .login-form1{width:100%;}
+.login-wraper.get-started .social-login{padding-bottom:30px; margin-bottom:30px;}
+body{padding-bottom:55px !important}
+.navigation{padding-top:0}
+.navigation li{width:25%;}
+.earning-history dl dt h4::after{font-size:13px;}
+.login-form{padding:35px 25px}
+.login-wraper #frm-recover {
+  width: 100%;
+}
+.social-signup #frm-recover {
+  width: 100%;
+}
+.login-wraper #frm-recover .login-form {
+  padding: 30px;
+}
+.social-signup #frm-recover .login-form1 {
+  padding: 30px;
+}
+#frm-recover h2 {
+  padding: 20px 30px 0;
+}
+.container h1, #register h1{font-size:2em !important;}
+}
+@media (max-width: 600px){
+body.pg-earnings-history .earning-container{padding:10% 5%; min-height: 300px;}
+body.pg-earnings-history .container.account-body{}
+}
+@media (max-width: 480px){
+  .account-body .right-container{padding-bottom: 50px;}
+  .formLayout dl dd .btn.cancel{margin-top: 0;}
+  .formLayout dl dd .btn.cancel, .login-wraper .btn{}
+  .formLayout dl dd .btn.cancel, .social-signup .btn{}
+}
+
+@media (max-width: 370px){
+ .accordion #form-create-new-user h4{/*text-align:left !important;*/ padding-left:20px;}
+}
+/*@media only screen and (min-width:600px) and (max-width:1024px) {
+#ascrail2000-hr.topPos {height: 15px !important;top:95% !important}
+#ascrail2000-hr.topPos div{height: 15px !important}
+}
+@media only screen and (min-width:320px) and (max-width:599px) {
+#ascrail2000-hr.topPos {height: 15px !important;top:110% !important}
+}*/
+
+.signup-tab_0 {
+    float: left;
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+.signup-tab_1 {
+    float: left;
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+.signup-tab_2 {
+    float: left;
+    font-size: 20px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+.tabs{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reg-details{
+	width: 71%;
+    margin-left: 62px;
+    margin-right: auto;
+   
+}/*
+.reg-details dt{
+   
+    float:left;
+    font-size:14px;
+    color:#767676;
+    
+
+}
+.reg-details dd{
+    width: 60%;
+    float:left;
+    font-size:14px;
+    color:#767676;
+    font-weight:700;
+}
+*/
+
+.reg-details dl {
+  width: 100%;
+  overflow: hidden;
+  /*background: #ff0;*/
+  padding: 0;
+  margin: 0;
+  padding-bottom: 9px;
+  font-family: Conv_Gotham-Book,arial;
+}
+.reg-details dt {
+  float: left;
+  width: 35%;
+  /* adjust the width; make sure the total of both is 100% 
+  background: #cc0;*/
+  padding-right: 8px;
+  margin: 0;
+  text-align: right;
+  font-family: sans-serif;
+  color: grey
+
+}
+.reg-details dd {
+  float: left;
+  width: 55%;
+  /* adjust the width; make sure the total of both is 100% 
+  background: #dd0;*/
+  padding: 0;
+  margin: 0
+}
+.reg-details input[type="text"], .reg-details input[type="password"] {
+    background-color: #FFFFFF;
+    font-size: 0.9em;
+    padding: 11px;
+    width: 100%;
+    border-radius: 0px;
+}
+.email_logo{
+	  background: url(../img/email.png) no-repeat 6px center;
+	  width: 100px;
+	  height: 100px;
+	  display: block;
+}
+.tabStyle_left{
+	border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.tabStyle_right{
+	border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+a.tab_lable{
+	padding: 22px;
+    vertical-align: sub;
+}
+
+.signup-fb{
+    background: url('../img/FB_button.png') no-repeat;
+    cursor:pointer;
+    border: none;
+}
+
+/* traffic-settings*/
+.test_postback, .validate_click_url, .validate_postback_url {
+    border: 1px solid #6e3584;
+    color: #6e3584;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.test-postback-closeBtn:before {
+  content: "\f057";
+  font-family: fontawesome;
+  font-size: 38px;
+}
+
+.test-postback-closeBtn {
+    border-radius: 50%; background: #fff;
+    color: #000;
+    cursor: pointer;
+    font: bold 17px/25px open sans;
+    height: 25px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -10px;
+    width: 25px;
+    z-index: 1002;
+}
+
+.overlay-bg {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#test-postback-bg.overlay-bg{display: none;}
+.overlay-bg .overlay-content{position: relative;}
+.overlay-bg .overlay-container{display: block !important; position: static; margin: 40px auto !important;}
+
+.overlay-content {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 20px 4%;
+    position: relative;
+    z-index: 9999;
+    top: 70px;
+}
+
+.overlay-container {
+    border-radius: 5px;
+    display: none;
+    max-width: 800px;
+    position: fixed;
+    z-index: 1001;
+}
+
+.overlay-container.test-postback-popup .formLayout dl dd input[type="text"] {
+  min-width: 69%;
+  max-width: 69%;
+  padding: 8px;
+  background: #fff;
+}
+
+#postback-info{
+    display: inline-block;
+}
+
+.err_messages_postback:before, .err_messages_click:before {content: "\f071";font-family: fontawesome;padding-right: 10px;}
+.err_messages_postback, .err_messages_click {color: red; display: none;}
+
+.notif_messages_postback:before, .notif_messages_click:before {content: "\f00c";font-family: fontawesome;padding-right: 10px;font-size:14px;}
+.notif_messages_postback, .notif_messages_click {color: green; display: none; margin-top: 10px;}
+textarea:disabled {
+    color: #ccc;
+    font-style: italic !important;
+    cursor: default;
+}
+
+ .lbl_uploadfile {
+    width:59%;
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+
+.lbl_uploadfile label {
+    font-style: italic;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #a7a7a7;
+    display: inline-block;
+    box-sizing: border-box;
+    font: 14px Conv_Gotham-Light;
+    color: #828282;
+    padding-top: 12px;
+    display: block;
+    cursor: default;    
+}
+.lbl_uploadfile label span.file_name {
+    font-size: 1em;
+    color: #a7a7a7;
+    display: inline-block;
+    font: 14px conv_gotham-book;
+    vertical-align: middle;
+    font-style: italic;
+}
+
+.lbl_uploadfile .butt-upload {
+    padding-top: 7px;
+    font: 12px Conv_Gotham-Book;
+    position: absolute;
+}
+
+.butt-upload {
+    background: #eaedf0;
+    padding: 10px;
+    color: #a2a3a5;
+    font: 14px Conv_Gotham-Book;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: -1px 1px 2px -1px rgba(0,0,0,0.15) inset;
+    border: #dfe0e3 solid 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+}
+.butt-upload:hover, .butt-upload:focus {
+    background: #084384;
+    color: #fff;
+    border: 1px solid #084384;
+}

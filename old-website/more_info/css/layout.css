@@ -1,0 +1,32 @@
+.inner-cont {padding:20px 3.5% 0}
+.inner-content{padding:40px 3.5%;}
+
+@media only screen and (min-width: 0px) and (max-width:1024px) {
+.tab-only {display:block; }
+.tab-mobile-only  {display:block; }
+
+.mobileMessage.tab-mobile-only{margin-top:20px;}
+.inner-cont.apps-site {padding:0}
+
+
+/* ------------- HEADING------------ */
+.container h1 {font-family:'Conv_Gotham-Book'; /* padding:0 */ }
+.app-deployer .heading-type-01 {background:#e8ecef; padding:25px 0}
+
+
+/* ------------- BORDERS------------ */
+.heading-border {margin:0!important}
+
+
+/* ------------- SPACER------------ */
+.gutter-1 {padding:5% 5% 0}
+
+}
+ 
+@media only screen and (min-width: 0px) and (max-width:768px) {.tab-only {display:none}
+.desktop-tab-only {display:none}
+.tab-mobile-only {display:block; }
+.container h1 {font-family:'Conv_Gotham-Book';  }
+.pagination-left li.desktop-only{display:none !important;}
+}
+ 
